@@ -178,3 +178,22 @@ speedtest.washington.linode.com ; Linode (Akamai) ; Washington, D.C., United Sta
 103.20.235.208 ; Shock Hosting (Rack Central) ; Singapore
 139.99.30.245 ; SakuraServer (SakuraServer) ; Singapore
 23.27.101.2 ; Kuroit ; Singapore
+au-02.jumptoserver.com ; FastestVPN ; Sydney, AU
+bel-01.jumptoserver.com ; FastestVPN ; Brussel, Belgium
+bg-01.jumptoserver.com ; FastestVPN ; Sofia, Bulgaria
+ca-01.jumptoserver.com ; FastestVPN ; Montreal, Canada
+clmb.jumptoserver.com ; FastestVPN ; Colombia
+cz-01.jumptoserver.com ; FastestVPN ; Czech Republic	
+dk-01.jumptoserver.com ; FastestVPN ; Denmark
+it-01.jumptoserver.com ; FastestVPN ; Italy
+nr-01.jumptoserver.com ; FastestVPN ; Norway
+pl.jumptoserver.com ; FastestVPN ; Poland
+ro-01.jumptoserver.com ; FastestVPN ; Bucharest, Romania
+rs-01.jumptoserver.com ; FastestVPN ; Belgrade, Serbia
+sg-01.jumptoserver.com ; FastestVPN ; Singapore
+ch-01.jumptoserver.com ; FastestVPN ; Zurich, Switzerland
+tr.jumptoserver.com ; FastestVPN ; Turkey
+uk-01.jumptoserver.com ; FastestVPN ; London, UK
+uk-02.jumptoserver.com ; FastestVPN ; London, UK
+us-at.jumptoserver.com ; FastestVPN ; Atlanta, USA
+us-mia.jumptoserver.com ; FastestVPN ; Miami, USA
