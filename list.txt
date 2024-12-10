@@ -51,7 +51,7 @@ hil.as16276.ovh ; OVH USA (West Coast)
 speedtest.amsterdam.linode.com ; Linode (Akamai) Amsterdam, Netherlands
 speedtest.atlanta.linode.com ; Linode (Akamai) Atlanta, United States
 speedtest.chennai.linode.com ; Linode (Akamai) Chennai, India
-speedtest.chicago.linode.comb; Linode (Akamai) Chicago, United States
+speedtest.chicago.linode.com ; Linode (Akamai) Chicago, United States
 speedtest.dallas.linode.com ; Linode (Akamai) Dallas, United States
 speedtest.frankfurt.linode.com ; Linode (Akamai) Frankfurt, Germany
 de-fra-2.speedtest.linode.com ; Linode (Akamai) Frankfurt Expansion, Germany
