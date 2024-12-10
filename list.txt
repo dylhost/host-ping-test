@@ -48,37 +48,37 @@ us1.as16276.ovh ; OVH USA (East Coast)
 vin.as16276.ovh ; OVH USA (East Coast)
 us2.as16276.ovh ; OVH USA (West Coast)
 hil.as16276.ovh ; OVH USA (West Coast)
-speedtest.amsterdam.linode.com # Linode (Akamai) Amsterdam, Netherlands
-speedtest.atlanta.linode.com # Linode (Akamai) Atlanta, United States
-speedtest.chennai.linode.com # Linode (Akamai) Chennai, India
-speedtest.chicago.linode.comb# Linode (Akamai) Chicago, United States
-speedtest.dallas.linode.com # Linode (Akamai) Dallas, United States
-speedtest.frankfurt.linode.com # Linode (Akamai) Frankfurt, Germany
-de-fra-2.speedtest.linode.com # Linode (Akamai) Frankfurt Expansion, Germany
-speedtest.fremont.linode.com # Linode (Akamai) Fremont, United States
-speedtest.jakarta.linode.com # Linode (Akamai) Jakarta, Indonesia
-speedtest.london.linode.com # Linode (Akamai) London, United Kingdom
-gb-lon.speedtest.linode.com # Linode (Akamai) London Expansion, United Kingdom
-speedtest.los-angeles.linode.com # Linode (Akamai) Los Angeles, United States
-speedtest.madrid.linode.com # Linode (Akamai) Madrid, Spain
-au-mel.speedtest.linode.com # Linode (Akamai) Melbourne, Australia
-speedtest.miami.linode.com # Linode (Akamai) Miami, United States
-speedtest.milan.linode.com # Linode (Akamai) Milan, Italy
-speedtest.mumbai1.linode.com # Linode (Akamai) Mumbai, India
-in-bom-2.speedtest.linode.com # Linode (Akamai) Mumbai Expansion, India
-speedtest.newark.linode.com # Linode (Akamai) Newark, United States
-speedtest.osaka.linode.com # Linode (Akamai) Osaka, Japan
-speedtest.paris.linode.com # Linode (Akamai) Paris, France
-speedtest.seattle.linode.com # Linode (Akamai) Seattle, United States
-speedtest.singapore.linode.com # Linode (Akamai) Singapore, Singapore
-sg-sin-2.speedtest.linode.com # Linode (Akamai) Singapore Expansion, Singapore
-speedtest.stockholm.linode.com # Linode (Akamai) Stockholm, Sweden
-speedtest.sydney.linode.com # Linode (Akamai) Sydney, Australia
-speedtest.sao-paulo.linode.com # Linode (Akamai) São Paulo, Brazil
-speedtest.tokyo2.linode.com # Linode (Akamai) Tokyo, Japan
-jp-tyo-3.speedtest.linode.com # Linode (Akamai) Tokyo Expansion, Japan
-speedtest.toronto1.linode.com # Linode (Akamai) Toronto, Canada
-speedtest.washington.linode.com # Linode (Akamai) Washington, D.C., United States
+speedtest.amsterdam.linode.com ; Linode (Akamai) Amsterdam, Netherlands
+speedtest.atlanta.linode.com ; Linode (Akamai) Atlanta, United States
+speedtest.chennai.linode.com ; Linode (Akamai) Chennai, India
+speedtest.chicago.linode.comb; Linode (Akamai) Chicago, United States
+speedtest.dallas.linode.com ; Linode (Akamai) Dallas, United States
+speedtest.frankfurt.linode.com ; Linode (Akamai) Frankfurt, Germany
+de-fra-2.speedtest.linode.com ; Linode (Akamai) Frankfurt Expansion, Germany
+speedtest.fremont.linode.com ; Linode (Akamai) Fremont, United States
+speedtest.jakarta.linode.com ; Linode (Akamai) Jakarta, Indonesia
+speedtest.london.linode.com ; Linode (Akamai) London, United Kingdom
+gb-lon.speedtest.linode.com ; Linode (Akamai) London Expansion, United Kingdom
+speedtest.los-angeles.linode.com ; Linode (Akamai) Los Angeles, United States
+speedtest.madrid.linode.com ; Linode (Akamai) Madrid, Spain
+au-mel.speedtest.linode.com ; Linode (Akamai) Melbourne, Australia
+speedtest.miami.linode.com ; Linode (Akamai) Miami, United States
+speedtest.milan.linode.com ; Linode (Akamai) Milan, Italy
+speedtest.mumbai1.linode.com ; Linode (Akamai) Mumbai, India
+in-bom-2.speedtest.linode.com ; Linode (Akamai) Mumbai Expansion, India
+speedtest.newark.linode.com ; Linode (Akamai) Newark, United States
+speedtest.osaka.linode.com ; Linode (Akamai) Osaka, Japan
+speedtest.paris.linode.com ; Linode (Akamai) Paris, France
+speedtest.seattle.linode.com ; Linode (Akamai) Seattle, United States
+speedtest.singapore.linode.com ; Linode (Akamai) Singapore, Singapore
+sg-sin-2.speedtest.linode.com ; Linode (Akamai) Singapore Expansion, Singapore
+speedtest.stockholm.linode.com ; Linode (Akamai) Stockholm, Sweden
+speedtest.sydney.linode.com ; Linode (Akamai) Sydney, Australia
+speedtest.sao-paulo.linode.com ; Linode (Akamai) São Paulo, Brazil
+speedtest.tokyo2.linode.com ; Linode (Akamai) Tokyo, Japan
+jp-tyo-3.speedtest.linode.com ; Linode (Akamai) Tokyo Expansion, Japan
+speedtest.toronto1.linode.com ; Linode (Akamai) Toronto, Canada
+speedtest.washington.linode.com ; Linode (Akamai) Washington, D.C., United States
 142.202.49.166 ; GlobalTeleHost Ashburn (US)
 167.88.63.166 ; GlobalTeleHost Atlanta (US)
 162.251.60.175 ; GlobalTeleHost Chicago (US)
