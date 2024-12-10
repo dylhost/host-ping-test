@@ -1,7 +1,7 @@
 # This is the list file that you place all IPs.
 # Contact is John Mintz.  john.mintz@gmail.com  twitter @johnwmintz
 # Place all IPs below this line.  
-83.138.53.15 ; Amsterdam, NL (Equinix AM3) 
+83.138.53.15 ; Amsterdam, NL (Equinix AM3) ; test
 193.29.62.40 ; Chicago, US (CoreSite CH2)
 103.214.22.76 ; Hong Kong (Equinix HK1)
 150.107.201.10 ; HostHatch London, UK (Iron Mountain LON01)
