@@ -2,8 +2,6 @@ total=0
 count=0
 min=999
 max=0
-mintxt=""
-maxtxt=""
 while read output
 do
     ping=$(ping -4 -qc1 $(echo $output | cut -d ";" -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }')
