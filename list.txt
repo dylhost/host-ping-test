@@ -143,7 +143,6 @@ hil.as16276.ovh ; OVH USA (West Coast)
 146.185.214.47 ; Gcore Sydney, AU
 203.96.177.151 ; Shock Hosting (Equinix)
 195.123.237.53 ; ITL DC (Telstra) Singapore
-194.15.115.80 ; Hosting International (Equinix) Singapore
 5.188.34.98 ; Gcore Singapore
 103.20.235.208 ; Shock Hosting (Rack Central) Singapore
 139.99.30.245 ; SakuraServer (SakuraServer) Singapore
