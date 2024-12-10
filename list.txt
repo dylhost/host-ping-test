@@ -1,180 +1,180 @@
 # This is the list file that you place all IPs.
-# Contact is John Mintz.  john.mintz@gmail.com  twitter @johnwmintz
+# Format: IP ; Host (Datacentre) ; Location
 # Place all IPs below this line.  
-83.138.53.15 ; Amsterdam, NL (Equinix AM3) 
-193.29.62.40 ; Chicago, US (CoreSite CH2)
-103.214.22.76 ; Hong Kong (Equinix HK1)
-150.107.201.10 ; HostHatch London, UK (Iron Mountain LON01)
-185.197.30.30 ; HostHatch Los Angeles, US (Telecom Center LA)
-185.175.56.60 ; HostHatch Oslo, Norway (Blix BDC)
-103.167.150.90 ; HostHatch Singapore (Racks Central)
-31.220.15.232 ; HostHatch Stockholm, Sweden (Interxion STO4)
-194.29.100.26 ; HostHatch Sydney, Australia (Equinix SY4)
-212.52.0.11 ; HostHatch Tokyo, Japan (Equinix TY8)
-185.175.59.70 ; HostHatch Vienna, Austria (Interxion VIE)
-45.91.92.92 ; HostHatch Zurich, Switzerland (Interxion ZUR1)
-204.13.154.3 ; racknerd Los Angeles, CA, USA
-192.210.207.88 ; racknerd San Jose, CA, USA
-192.3.253.2 ; racknerd Seattle, WA, USA
-198.23.249.100 ; racknerd Dallas, TX, USA
-198.23.228.15 ; racknerd Chicago, IL, USA
-192.3.81.8 ; racknerd New York, NY, USA
-192.3.254.158 ; racknerd Ashburn, VA, USA
-107.173.164.160 ; racknerd Atlanta, GA, USA
-45.95.173.2 ; racknerd Strasbourg, France
-23.94.101.88 ; racknerd Amsterdam, NL
-23.95.225.2 ; racknerd Dublin, IE
-79.124.7.8 ; Alphavps Sofia, Bulgaria
-194.35.12.68 ; Alphavps Nuremberg, Germany
-130.185.251.6 ; Alphavps London, UK
-45.59.101.12 ; Alphavps Seattle, USA
-165.140.242.110 ; Alphavps New York, USA
-165.140.241.183 ; Alphavps Los Angeles, USA
-45.59.100.4 ; Dallas, USA
-sin1.as16276.ovh ; OVH Singapore
-sgp.as16276.ovh ; OVH Singapore
-sin.as16276.ovh ; OVH Singapore
-syd1.as16276.ovh ; OVH Sydney
-syd.as16276.ovh ; OVH Sydney
-de1.as16276.ovh ; OVH Germany 
-lim.as16276.ovh ; OVH Germany
-fra.as16276.ovh ; OVH Germany
-rbx.as16276.ovh ; OVH France
-waw.as16276.ovh ; OVH Poland
-oza.as16276.ovh ; OVH Poland 
-uk1.as16276.ovh ; OVH England
-eri.as16276.ovh ; OVH England
-us1.as16276.ovh ; OVH USA (East Coast)
-vin.as16276.ovh ; OVH USA (East Coast)
-us2.as16276.ovh ; OVH USA (West Coast)
-hil.as16276.ovh ; OVH USA (West Coast)
-speedtest.amsterdam.linode.com ; Linode (Akamai) Amsterdam, Netherlands
-speedtest.atlanta.linode.com ; Linode (Akamai) Atlanta, United States
-speedtest.chennai.linode.com ; Linode (Akamai) Chennai, India
-speedtest.chicago.linode.com ; Linode (Akamai) Chicago, United States
-speedtest.dallas.linode.com ; Linode (Akamai) Dallas, United States
-speedtest.frankfurt.linode.com ; Linode (Akamai) Frankfurt, Germany
-de-fra-2.speedtest.linode.com ; Linode (Akamai) Frankfurt Expansion, Germany
-speedtest.fremont.linode.com ; Linode (Akamai) Fremont, United States
-speedtest.jakarta.linode.com ; Linode (Akamai) Jakarta, Indonesia
-speedtest.london.linode.com ; Linode (Akamai) London, United Kingdom
-gb-lon.speedtest.linode.com ; Linode (Akamai) London Expansion, United Kingdom
-speedtest.los-angeles.linode.com ; Linode (Akamai) Los Angeles, United States
-speedtest.madrid.linode.com ; Linode (Akamai) Madrid, Spain
-au-mel.speedtest.linode.com ; Linode (Akamai) Melbourne, Australia
-speedtest.miami.linode.com ; Linode (Akamai) Miami, United States
-speedtest.milan.linode.com ; Linode (Akamai) Milan, Italy
-speedtest.mumbai1.linode.com ; Linode (Akamai) Mumbai, India
-in-bom-2.speedtest.linode.com ; Linode (Akamai) Mumbai Expansion, India
-speedtest.newark.linode.com ; Linode (Akamai) Newark, United States
-speedtest.osaka.linode.com ; Linode (Akamai) Osaka, Japan
-speedtest.paris.linode.com ; Linode (Akamai) Paris, France
-speedtest.seattle.linode.com ; Linode (Akamai) Seattle, United States
-speedtest.singapore.linode.com ; Linode (Akamai) Singapore, Singapore
-sg-sin-2.speedtest.linode.com ; Linode (Akamai) Singapore Expansion, Singapore
-speedtest.stockholm.linode.com ; Linode (Akamai) Stockholm, Sweden
-speedtest.sydney.linode.com ; Linode (Akamai) Sydney, Australia
-speedtest.sao-paulo.linode.com ; Linode (Akamai) São Paulo, Brazil
-speedtest.tokyo2.linode.com ; Linode (Akamai) Tokyo, Japan
-jp-tyo-3.speedtest.linode.com ; Linode (Akamai) Tokyo Expansion, Japan
-speedtest.toronto1.linode.com ; Linode (Akamai) Toronto, Canada
-speedtest.washington.linode.com ; Linode (Akamai) Washington, D.C., United States
-142.202.49.166 ; GlobalTeleHost Ashburn (US)
-167.88.63.166 ; GlobalTeleHost Atlanta (US)
-162.251.60.175 ; GlobalTeleHost Chicago (US)
-167.88.62.166 ; GlobalTeleHost Dallas (US)
-139.64.164.166 ; GlobalTeleHost Denver (US)
-162.251.63.175 ; GlobalTeleHost Los Angeles (US)
-162.251.62.176 ; GlobalTeleHost Miami (US)
-142.202.48.166 ; GlobalTeleHost New York (US)
-172.99.191.166 ; GlobalTeleHost Phoenix (US)
-167.88.60.166 ; GlobalTeleHost Santa Clara (US)
-142.202.50.166 ; GlobalTeleHost Seattle (US)
-198.57.26.172 ; GlobalTeleHost Toronto (CA)
-158.51.120.166 ; GlobalTeleHost Montreal (CA)
-158.51.122.166 ; GlobalTeleHost Vancouver (CA)
-139.64.166.166 ; GlobalTeleHost Amsterdam (NL)
-193.108.116.176 ; GlobalTeleHost Frankfurt (DE)
-142.202.51.166 ; GlobalTeleHost London (UK)
-172.111.37.166 ; GlobalTeleHost Madrid (ES)
-139.64.167.166 ; GlobalTeleHost Paris (FR)
+83.138.53.15 ; HostHatch (Equinix AM3) ; Amsterdam, NL 
+193.29.62.40 ; HostHatch (CoreSite CH2) ; Chicago, US  
+103.214.22.76 ; HostHatch (Equinix HK1) ; Hong Kong 
+150.107.201.10 ; HostHatch (Iron Mountain LON01) ; London, UK
+185.197.30.30 ; HostHatch (Telecom Center LA) ; Los Angeles, US 
+185.175.56.60 ; HostHatch (Blix BDC) ; Oslo, Norway
+103.167.150.90 ; HostHatch (Racks Central) ; Singapore 
+31.220.15.232 ; HostHatch (Interxion STO4) ; Stockholm, Sweden
+194.29.100.26 ; HostHatch (Equinix TY8) ; Sydney, Australia
+212.52.0.11 ; HostHatch (Equinix TY8) ; Tokyo, Japan
+185.175.59.70 ; HostHatch (Interxion VIE) ; Vienna, Austria
+45.91.92.92 ; HostHatch (Interxion ZUR1) ; Zurich, Switzerland
+204.13.154.3 ; racknerd ; Los Angeles, CA, USA
+192.210.207.88 ; racknerd ; San Jose, CA, USA
+192.3.253.2 ; racknerd ; Seattle, WA, USA
+198.23.249.100 ; racknerd ; Dallas, TX, USA
+198.23.228.15 ; racknerd ; Chicago, IL, USA
+192.3.81.8 ; racknerd ; New York, NY, USA
+192.3.254.158 ; racknerd ; Ashburn, VA, USA
+107.173.164.160 ; racknerd ; Atlanta, GA, USA
+45.95.173.2 ; racknerd ; Strasbourg, France
+23.94.101.88 ; racknerd ; Amsterdam, NL
+23.95.225.2 ; racknerd ; Dublin, IE
+79.124.7.8 ; Alphavps ; Sofia, Bulgaria
+194.35.12.68 ; Alphavps ; Nuremberg, Germany
+130.185.251.6 ; Alphavps ; London, UK
+45.59.101.12 ; Alphavps ; Seattle, USA
+165.140.242.110 ; Alphavps ; New York, USA
+165.140.241.183 ; Alphavps ; Los Angeles, USA
+45.59.100.4 ; Alphavps ; Dallas, USA
+sin1.as16276.ovh ; OVH ; Singapore
+sgp.as16276.ovh ; OVH ; Singapore
+sin.as16276.ovh ; OVH ; Singapore
+syd1.as16276.ovh ; OVH ; Sydney
+syd.as16276.ovh ; OVH ; Sydney
+de1.as16276.ovh ; OVH ; Germany 
+lim.as16276.ovh ; OVH ; Germany
+fra.as16276.ovh ; OVH ; Germany
+rbx.as16276.ovh ; OVH ; France
+waw.as16276.ovh ; OVH ; Poland
+oza.as16276.ovh ; OVH ; Poland 
+uk1.as16276.ovh ; OVH ; England
+eri.as16276.ovh ; OVH ; England
+us1.as16276.ovh ; OVH ; USA (East Coast)
+vin.as16276.ovh ; OVH ; USA (East Coast)
+us2.as16276.ovh ; OVH ; USA (West Coast)
+hil.as16276.ovh ; OVH ; USA (West Coast)
+speedtest.amsterdam.linode.com ; Linode (Akamai) ; Amsterdam, Netherlands
+speedtest.atlanta.linode.com ; Linode (Akamai) ; Atlanta, United States
+speedtest.chennai.linode.com ; Linode (Akamai) ; Chennai, India
+speedtest.chicago.linode.com ; Linode (Akamai) ; Chicago, United States
+speedtest.dallas.linode.com ; Linode (Akamai) ; Dallas, United States
+speedtest.frankfurt.linode.com ; Linode (Akamai) ; Frankfurt, Germany
+de-fra-2.speedtest.linode.com ; Linode (Akamai) ; Frankfurt Expansion, Germany
+speedtest.fremont.linode.com ; Linode (Akamai) ; Fremont, United States
+speedtest.jakarta.linode.com ; Linode (Akamai) ; Jakarta, Indonesia
+speedtest.london.linode.com ; Linode (Akamai) ; London, United Kingdom
+gb-lon.speedtest.linode.com ; Linode (Akamai) ; London Expansion, United Kingdom
+speedtest.los-angeles.linode.com ; Linode (Akamai) ; Los Angeles, United States
+speedtest.madrid.linode.com ; Linode (Akamai) ; Madrid, Spain
+au-mel.speedtest.linode.com ; Linode (Akamai) ; Melbourne, Australia
+speedtest.miami.linode.com ; Linode (Akamai) ; Miami, United States
+speedtest.milan.linode.com ; Linode (Akamai) ; Milan, Italy
+speedtest.mumbai1.linode.com ; Linode (Akamai) ; Mumbai, India
+in-bom-2.speedtest.linode.com ; Linode (Akamai) ; Mumbai Expansion, India
+speedtest.newark.linode.com ; Linode (Akamai) ; Newark, United States
+speedtest.osaka.linode.com ; Linode (Akamai) ; Osaka, Japan
+speedtest.paris.linode.com ; Linode (Akamai) ; Paris, France
+speedtest.seattle.linode.com ; Linode (Akamai) ; Seattle, United States
+speedtest.singapore.linode.com ; Linode (Akamai) ; Singapore, Singapore
+sg-sin-2.speedtest.linode.com ; Linode (Akamai) ; Singapore Expansion, Singapore
+speedtest.stockholm.linode.com ; Linode (Akamai) ; Stockholm, Sweden
+speedtest.sydney.linode.com ; Linode (Akamai) ; Sydney, Australia
+speedtest.sao-paulo.linode.com ; Linode (Akamai) ; São Paulo, Brazil
+speedtest.tokyo2.linode.com ; Linode (Akamai) ; Tokyo, Japan
+jp-tyo-3.speedtest.linode.com ; Linode (Akamai) ; Tokyo Expansion, Japan
+speedtest.toronto1.linode.com ; Linode (Akamai) ; Toronto, Canada
+speedtest.washington.linode.com ; Linode (Akamai) ; Washington, D.C., United States
+142.202.49.166 ; GlobalTeleHost ; Ashburn (US)
+167.88.63.166 ; GlobalTeleHost ; Atlanta (US)
+162.251.60.175 ; GlobalTeleHost ; Chicago (US)
+167.88.62.166 ; GlobalTeleHost ; Dallas (US)
+139.64.164.166 ; GlobalTeleHost ; Denver (US)
+162.251.63.175 ; GlobalTeleHost ; Los Angeles (US)
+162.251.62.176 ; GlobalTeleHost ; Miami (US)
+142.202.48.166 ; GlobalTeleHost ; New York (US)
+172.99.191.166 ; GlobalTeleHost ; Phoenix (US)
+167.88.60.166 ; GlobalTeleHost ; Santa Clara (US)
+142.202.50.166 ; GlobalTeleHost ; Seattle (US)
+198.57.26.172 ; GlobalTeleHost ; Toronto (CA)
+158.51.120.166 ; GlobalTeleHost ; Montreal (CA)
+158.51.122.166 ; GlobalTeleHost ; Vancouver (CA)
+139.64.166.166 ; GlobalTeleHost ; Amsterdam (NL)
+193.108.116.176 ; GlobalTeleHost ; Frankfurt (DE)
+142.202.51.166 ; GlobalTeleHost ; London (UK)
+172.111.37.166 ; GlobalTeleHost ; Madrid (ES)
+139.64.167.166 ; GlobalTeleHost ; Paris (FR)
 134.195.199.166 ; GlobalTeleHost Zurich (CH)
-108.181.89.251 ; Psychz.net Dallas, USA
-108.181.140.235 ; Psychz.net Chicago, USA
-108.181.134.142 ; Psychz.net Ashburn, USA
-108.181.69.242 ; Psychz.net Sao Paulo, Brazil
-108.181.67.248 ; Psychz.net London, UK
-108.181.59.250 ; Psychz.net Amsterdam, NL
-108.181.70.253 ; Psychz.net Barcelona, Spain
-108.181.60.199 ; Psychz.net Moscow, Russia
-108.181.120.247 ; Psychz.net Johannesburg
-108.181.61.214 ; Psychz.net Mumbai, India
-103.126.138.20 ; Psychz.net Singapore
-103.59.110.170 ; Psychz.net Taipei, Taiwan
-108.181.51.92 ; Psychz.net Seoul, South Korea
-108.181.73.55 ; Psychz.net Tokyo, Japan
-108.181.64.80 ; Psychz.net Sydney, Australia
-108.61.212.117 ; vultr Sydney, AU
-67.219.110.24 ; vultr Melbourne, AU
-108.61.201.151 ; vultr Tokyo
-64.176.162.16 ; vultr Tel Aviv
-141.164.34.61 ; vultr Seoul
-45.32.100.168 ; vultr Singapore
-64.176.34.94 ; vultr Osaka
-65.20.66.100 ; vultr Mumbai, India
-139.84.162.104 ; vultr Delhi, India
-139.84.130.100 ; vultr Bangladore, India
-139.84.226.78 ; vultr Johanesburg
-108.61.198.102 ; vultr Amsterdam, NL
-108.61.210.117 ; vultr Frankfurt, Germany
-108.61.196.101 ; vultr London, UK
-208.76.222.30 ; vultr Madrid
-64.176.178.136 ; vultr Manchester, UK
-108.61.209.127 ; vultr Paris
-70.34.194.86 ; vultr Stockholm
-70.34.242.24 ; vultr Warsaw
-108.61.193.166 ; vultr Atlanta
-107.191.51.12 ; vultr Chicago
-108.61.224.175 ; vultr Dallas
-208.72.154.76 ; vultr Honolulu
-108.61.219.200 ; vultr Los Angeles
-216.238.66.16 ; vultr Mexico City
-104.156.244.232 ; vultr Miami
-108.61.149.182 ; vultr New Jersey
-108.61.194.105 ; vultr Seattle
-104.156.230.107 ; vultr Sillicon Valley
-149.248.50.81 ; vultr Toronto
-64.176.2.7 ; vultr Santiago
-216.238.98.118 ; vultr Sao Paulo
-2.58.56.10 ; rdp.sh Amsterdam, NL
-142.202.240.153 ; rdp.sh Phoenix, USA
-45.138.16.112 ; rdp.sh Warsaw, Poland
-193.26.115.108 ; rdp.sh Miami, USA
-185.53.130.2 ; Iniz.com Amsterdam, NL
-89.33.6.66 ; Iniz.com Coventry (UK)
-107.161.163.163 ; Iniz.com Piscataway, NJ (USA)
-107.181.135.135 ; Iniz.com Dallas, TX (USA)
-172.86.96.153 ; cloudzy.com New York, USA
-45.61.129.54 ; cloudzy.com Las Vegas, USA
-167.88.160.228 ; cloudzy.com Dallas / Texas, USA
-104.194.128.46 ; cloudzy.com London
-167.88.174.123 ; cloudzy.com Singapore
-104.194.133.41 ; cloudzy.com Amsterdam
-103.214.68.4 ; extravm.com Amsterdam, NL
-2.58.57.56 ; hybula.net Amsterdam, NL
-193.142.146.46 ; hostslick Limburg, Netherlands (HostSlick Datacenter)
-46.161.40.131 ; Mnogoweb Amsterdam, NL (euNetworks)
-5.255.88.12 ; BlueVPS Amsterdam, NL (Switch)
-46.30.47.47 ; Eurobyte Amsterdam, NL (Datacenter.com)
-5.253.189.11 ; ServTech Amsterdam, NL (Equinix)
-185.142.239.130 ; BlackHOST Amsterdam, NL
-185.10.57.11 ; AltusHost Amsterdam, NL
-217.195.153.179 ; Shock hosting Amsterdam, NL (Equinix)
-185.197.162.82 ; ua-hosting.company Amsterdam, NL (Maincubes)
-146.185.214.47 ; Gcore Sydney, AU
-203.96.177.151 ; Shock Hosting (Equinix)
-195.123.237.53 ; ITL DC (Telstra) Singapore
-5.188.34.98 ; Gcore Singapore
-103.20.235.208 ; Shock Hosting (Rack Central) Singapore
-139.99.30.245 ; SakuraServer (SakuraServer) Singapore
-23.27.101.2 ; Kuroit Singapore
+108.181.89.251 ; Psychz.net ; Dallas, USA
+108.181.140.235 ; Psychz.net ; Chicago, USA
+108.181.134.142 ; Psychz.net ; Ashburn, USA
+108.181.69.242 ; Psychz.net ; Sao Paulo, Brazil
+108.181.67.248 ; Psychz.net ; London, UK
+108.181.59.250 ; Psychz.net ; Amsterdam, NL
+108.181.70.253 ; Psychz.net ; Barcelona, Spain
+108.181.60.199 ; Psychz.net ; Moscow, Russia
+108.181.120.247 ; Psychz.net ; Johannesburg
+108.181.61.214 ; Psychz.net ; Mumbai, India
+103.126.138.20 ; Psychz.net ; Singapore
+103.59.110.170 ; Psychz.net ; Taipei, Taiwan
+108.181.51.92 ; Psychz.net ; Seoul, South Korea
+108.181.73.55 ; Psychz.net ; Tokyo, Japan
+108.181.64.80 ; Psychz.net ; Sydney, Australia
+108.61.212.117 ; vultr ; Sydney, AU
+67.219.110.24 ; vultr ; Melbourne, AU
+108.61.201.151 ; vultr ; Tokyo
+64.176.162.16 ; vultr ; Tel Aviv
+141.164.34.61 ; vultr ; Seoul
+45.32.100.168 ; vultr ; Singapore
+64.176.34.94 ; vultr ; Osaka
+65.20.66.100 ; vultr ; Mumbai, India
+139.84.162.104 ; vultr ; Delhi, India
+139.84.130.100 ; vultr ; Bangladore, India
+139.84.226.78 ; vultr ; Johanesburg
+108.61.198.102 ; vultr ; Amsterdam, NL
+108.61.210.117 ; vultr ; Frankfurt, Germany
+108.61.196.101 ; vultr ; London, UK
+208.76.222.30 ; vultr ; Madrid
+64.176.178.136 ; vultr ; Manchester, UK
+108.61.209.127 ; vultr ; Paris
+70.34.194.86 ; vultr ; Stockholm
+70.34.242.24 ; vultr ; Warsaw
+108.61.193.166 ; vultr ; Atlanta, USA
+107.191.51.12 ; vultr ; Chicago, USA
+108.61.224.175 ; vultr ; Dallas, USA
+208.72.154.76 ; vultr ; Honolulu, USA
+108.61.219.200 ; vultr ; Los Angeles, USA
+216.238.66.16 ; vultr ; Mexico City
+104.156.244.232 ; vultr ; Miami, USA
+108.61.149.182 ; vultr ; New Jersey, USA
+108.61.194.105 ; vultr ; Seattle, USA
+104.156.230.107 ; vultr ; Sillicon Valley
+149.248.50.81 ; vultr ; Toronto
+64.176.2.7 ; vultr ; Santiago
+216.238.98.118 ; vultr ; Sao Paulo
+2.58.56.10 ; rdp.sh ; Amsterdam, NL
+142.202.240.153 ; rdp.sh ; Phoenix, USA
+45.138.16.112 ; rdp.sh ; Warsaw, Poland
+193.26.115.108 ; rdp.sh ; Miami, USA
+185.53.130.2 ; Iniz.com ; Amsterdam, NL
+89.33.6.66 ; Iniz.com ; Coventry (UK)
+107.161.163.163 ; Iniz.com ; Piscataway, NJ (USA)
+107.181.135.135 ; Iniz.com ; Dallas, TX (USA)
+172.86.96.153 ; cloudzy.com ; New York, USA
+45.61.129.54 ; cloudzy.com ; Las Vegas, USA
+167.88.160.228 ; cloudzy.com ; Dallas / Texas, USA
+104.194.128.46 ; cloudzy.com ; London, UK
+167.88.174.123 ; cloudzy.com ; Singapore
+104.194.133.41 ; cloudzy.com ; Amsterdam, NL
+103.214.68.4 ; extravm.com ; Amsterdam, NL
+2.58.57.56 ; hybula.net ; Amsterdam, NL
+193.142.146.46 ; hostslick (HostSlick Datacenter) ; Limburg, Netherlands
+46.161.40.131 ; Mnogoweb (euNetworks) ; Amsterdam, NL 
+5.255.88.12 ; BlueVPS (Switch) ; Amsterdam, NL 
+46.30.47.47 ; Eurobyte (Datacenter.com) ; Amsterdam, NL 
+5.253.189.11 ; ServTech (Equinix) ; Amsterdam, NL 
+185.142.239.130 ; BlackHOST ; Amsterdam, NL
+185.10.57.11 ; AltusHost ; Amsterdam, NL
+217.195.153.179 ; Shock hosting (Equinix) ; Amsterdam, NL 
+185.197.162.82 ; ua-hosting.company (Maincubes) ; Amsterdam, NL 
+146.185.214.47 ; Gcore ; Sydney, AU
+203.96.177.151 ; Shock Hosting (Equinix) ; Sydney, AU
+195.123.237.53 ; ITL DC (Telstra) ; Singapore
+5.188.34.98 ; Gcore ; Singapore
+103.20.235.208 ; Shock Hosting (Rack Central) ; Singapore
+139.99.30.245 ; SakuraServer (SakuraServer) ; Singapore
+23.27.101.2 ; Kuroit ; Singapore
