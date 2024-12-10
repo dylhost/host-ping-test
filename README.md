@@ -5,6 +5,7 @@ Credits for original template code https://github.com/johnwmintz/pinglist
 
 # Features
 Outputs total & Average (good for determining how well your server is peered internationally)
+
 Outputs min/max
 
 # Future feature
