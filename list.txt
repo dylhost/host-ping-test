@@ -133,15 +133,15 @@ speedtest.washington.linode.com ; Linode (Akamai) ; Washington, D.C., United Sta
 108.61.209.127 ; vultr ; Paris
 70.34.194.86 ; vultr ; Stockholm
 70.34.242.24 ; vultr ; Warsaw
-108.61.193.166 ; vultr ; Atlanta
-107.191.51.12 ; vultr ; Chicago
-108.61.224.175 ; vultr ; Dallas
-208.72.154.76 ; vultr ; Honolulu
-108.61.219.200 ; vultr ; Los Angeles
+108.61.193.166 ; vultr ; Atlanta, USA
+107.191.51.12 ; vultr ; Chicago, USA
+108.61.224.175 ; vultr ; Dallas, USA
+208.72.154.76 ; vultr ; Honolulu, USA
+108.61.219.200 ; vultr ; Los Angeles, USA
 216.238.66.16 ; vultr ; Mexico City
-104.156.244.232 ; vultr ; Miami
-108.61.149.182 ; vultr ; New Jersey
-108.61.194.105 ; vultr ; Seattle
+104.156.244.232 ; vultr ; Miami, USA
+108.61.149.182 ; vultr ; New Jersey, USA
+108.61.194.105 ; vultr ; Seattle, USA
 104.156.230.107 ; vultr ; Sillicon Valley
 149.248.50.81 ; vultr ; Toronto
 64.176.2.7 ; vultr ; Santiago
@@ -157,9 +157,9 @@ speedtest.washington.linode.com ; Linode (Akamai) ; Washington, D.C., United Sta
 172.86.96.153 ; cloudzy.com ; New York, USA
 45.61.129.54 ; cloudzy.com ; Las Vegas, USA
 167.88.160.228 ; cloudzy.com ; Dallas / Texas, USA
-104.194.128.46 ; cloudzy.com ; London
+104.194.128.46 ; cloudzy.com ; London, UK
 167.88.174.123 ; cloudzy.com ; Singapore
-104.194.133.41 ; cloudzy.com ; Amsterdam
+104.194.133.41 ; cloudzy.com ; Amsterdam, NL
 103.214.68.4 ; extravm.com ; Amsterdam, NL
 2.58.57.56 ; hybula.net ; Amsterdam, NL
 193.142.146.46 ; hostslick (HostSlick Datacenter) ; Limburg, Netherlands
