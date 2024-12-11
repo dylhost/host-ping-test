@@ -31,8 +31,7 @@ count=0
 min=999
 max=0
 list=""
-echo "Starting test, this may take a bit."
-task_in_total=750
+echo "Starting test, this may take a bit." 
 while getopts c: flag
 do
     case "${flag}" in
@@ -45,6 +44,8 @@ case $iplist in
     GBR) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/GBR";;
     *) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt";;
 esac
+
+task_in_total=$(curl -s "$iplist" | wc -l)
 
 while read output
 do
