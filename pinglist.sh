@@ -31,7 +31,7 @@ count=0
 min=999
 max=0
 list=""
-echo "Starting test, this may take a bit." 
+echo "Starting test, this may take a bit."
 while getopts c: flag
 do
     case "${flag}" in
@@ -40,7 +40,7 @@ do
 done
 
 if [ -z ${iplist+x} ]
-    then 
+    then
         iplist="."
 fi
 
