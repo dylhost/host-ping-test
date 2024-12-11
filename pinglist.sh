@@ -25,6 +25,7 @@ do
     fi
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt| tail -n +4))
 
+echo $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
 echo "min provider: "$mintxt "("$min"ms)"
 echo "max provider: "$maxtxt "("$max"ms)"
