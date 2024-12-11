@@ -6,7 +6,7 @@ echo "Starting test, this may take a bit."
 while read output
 do
     ping=$(ping -4 -qc1 $(echo $output | cut -d ";" -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }')
-    list+="'$ping' test ms '$output''/n'"
+    list+="'$ping' ms '$output''\n'"
     echo -n "."
     total=$(echo "$total+$ping" | bc)
     count=$(echo "$count+1" | bc)
