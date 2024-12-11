@@ -33,7 +33,7 @@ max=0
 list=""
 echo "Starting test, this may take a bit."
 task_in_total=750
-iplist=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt)
+iplist=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt)
 
 while read output
 do
