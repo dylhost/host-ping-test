@@ -513,19 +513,19 @@ oza.as16276.ovh , OVH , POL , POL
 sin1.as16276.ovh , OVH ,Singapore, SGP
 sgp.as16276.ovh , OVH ,Singapore, SGP
 sin.as16276.ovh , OVH ,Singapore, SGP
-speedtest.SGP.linode.com , Linode (Akamai) , SGP, SGP
-sg-sin-2.speedtest.linode.com , Linode (Akamai) , SGP Expansion, SGP
-103.126.138.20 , Psychz.net ,Singapore, SGP
-45.32.100.168 , vultr ,Singapore, SGP
-167.88.174.123 , cloudzy.com ,Singapore, SGP
+speedtest.SGP.linode.com , Linode (Akamai) , Singapore, SGP
+sg-sin-2.speedtest.linode.com , Linode (Akamai) , Singapore Expansion, SGP
+103.126.138.20 , Psychz.net , Singapore, SGP
+45.32.100.168 , vultr , Singapore, SGP
+167.88.174.123 , cloudzy.com , Singapore, SGP
 195.123.237.53, ITL DC(Telstra), Singapore, SGP
-194.15.115.80, Hosting International(Equinix), SGP, SGP
-103.126.139.164, Psychz Networks(Psychz Networks), SGP, SGP
-5.188.34.98, Gcore, SGP, SGP
+194.15.115.80, Hosting International(Equinix), Singapore, SGP
+103.126.139.164, Psychz Networks(Psychz Networks), Singapore, SGP
+5.188.34.98, Gcore, Singapore, SGP
 103.20.235.208, Shock Hosting(Racks Central), Singapore, SGP
 139.99.30.245, SakuraServer(SakuraServer),Singapore, SGP
-23.27.101.2, Kuroit, SGP, SGP
-131.153.77.4, Server Wala, SGP, SGP
+23.27.101.2, Kuroit, Singapore, SGP
+131.153.77.4, Server Wala, Singapore, SGP
 103.167.150.90 , HostHatch (Racks Central) ,Singapore , SGP 
 194.146.57.35, mCloud(CETIN), Belgrade, SRB
 185.119.90.31, Unlimited.RS(Telenor), Belgrade, SRB
