@@ -5,7 +5,7 @@ Credits for original template code https://github.com/johnwmintz/pinglist
 curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s
 ```
 
-### Flags
+## Flags
 ```
 curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -flags
 ```
@@ -14,7 +14,7 @@ curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main
 | -c | Specify country to test |
 | -s | Specify sort flag (options below) |
 
-Countries list:
+### Countries Flags:
 ([ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3))
 
 ### Sort flags:
