@@ -1,12 +1,12 @@
-83.138.53.15 , HostHatch (Equinix AM3) , Amsterdam - NL 
-193.29.62.40 , HostHatch (CoreSite CH2) , Chicago - US  
-103.214.22.76 , HostHatch (Equinix HK1) , Hong Kong 
-150.107.201.10 , HostHatch (Iron Mountain LON01) , London - UK
-185.197.30.30 , HostHatch (Telecom Center LA) , Los Angeles - US 
-185.175.56.60 , HostHatch (Blix BDC) , Oslo - Norway
-103.167.150.90 , HostHatch (Racks Central) - Singapore 
-31.220.15.232 , HostHatch (Interxion STO4) , Stockholm - Sweden
-194.29.100.26 , HostHatch (Equinix TY8) , Sydney - Australia
-212.52.0.11 , HostHatch (Equinix TY8) , Tokyo - Japan
-185.175.59.70 , HostHatch (Interxion VIE) , Vienna - Austria
-45.91.92.92 , HostHatch (Interxion ZUR1) , Zurich - Switzerland
+83.138.53.15 , HostHatch (Equinix AM3) , Amsterdam , NL 
+193.29.62.40 , HostHatch (CoreSite CH2) , Chicago , US  
+103.214.22.76 , HostHatch (Equinix HK1) , Hong Kong, HKG
+150.107.201.10 , HostHatch (Iron Mountain LON01) , London , UK
+185.197.30.30 , HostHatch (Telecom Center LA) , Los Angeles , US 
+185.175.56.60 , HostHatch (Blix BDC) , Oslo , Norway
+103.167.150.90 , HostHatch (Racks Central) , Singapore 
+31.220.15.232 , HostHatch (Interxion STO4) , Stockholm , Sweden
+194.29.100.26 , HostHatch (Equinix TY8) , Sydney , Australia
+212.52.0.11 , HostHatch (Equinix TY8) , Tokyo , Japan
+185.175.59.70 , HostHatch (Interxion VIE) , Vienna , Austria
+45.91.92.92 , HostHatch (Interxion ZUR1) , Zurich , Switzerland
