@@ -41,9 +41,9 @@ do
 done
 
 case $iplist in
-    SGP) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/SGP";
-    GBR) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/GBR";
-    *) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt";
+    SGP) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/SGP";;
+    GBR) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/GBR";;
+    *) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt";;
 esac
 
 while read output
