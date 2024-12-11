@@ -12,7 +12,7 @@ Examples:
 
 >curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
 
-Any country code with servers in the list will work.
+Any country code with servers in the list will work. It actually just grep's the file, so in theory you could also put in a host name to test a particular host.
 
 # Features
 - Outputs total & Average (good for determining how well your server is peered internationally)
