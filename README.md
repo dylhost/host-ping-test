@@ -16,6 +16,19 @@ Examples:
 Same as above, just specify host instead. Example:
 >curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
 
+## Optional sort options
+>curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s (option)
+
+No flag. Sort by ping (desending) 
+1. Sort by ping (assending)
+2. Sort by IP
+3. Sort by host name
+4. Sort by City
+5. Sort by Country code
+
+Example:
+>curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s 5
+
 # Features
 - Outputs total & Average (good for determining how well your server is peered internationally)
 - Outputs min/max
