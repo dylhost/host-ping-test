@@ -33,7 +33,18 @@ max=0
 list=""
 echo "Starting test, this may take a bit."
 task_in_total=750
-iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt"
+while getopts c: flag
+do
+    case "${flag}" in
+        c) iplist=${OPTARG};;
+    esac
+done
+
+case $iplist in
+    SGP) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/SGP";
+    GBR) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/GBR";
+    *) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt";
+esac
 
 while read output
 do
