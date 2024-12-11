@@ -3,7 +3,7 @@ Credits for original template code https://github.com/johnwmintz/pinglist
 # How to run
 >curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s
 
-# Optionally specify a country
+## Optionally specify a country
 Note country codes are [ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 >curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c CODE
 
@@ -12,7 +12,7 @@ Examples:
 
 >curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
 
-# Optionally specify host
+## Optionally specify host
 Same as above, just specify host instead. Example:
 >curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
 
