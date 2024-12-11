@@ -36,7 +36,7 @@ while getopts c:s: flag
 do
     case "${flag}" in
         c) iplist=${OPTARG};;
-        s) sortFlags=${OPTARG};;
+        s) sortFlag=${OPTARG};;
     esac
 done
 
@@ -45,9 +45,11 @@ if [ -z ${iplist+x} ]
         iplist="."
 fi
 
-if [ -z ${sortFlags} ]
+if [ -z ${sortFlag} ]
     then
-        sortFlags="nr"
+        sortFlag="nr"
+    else
+        sortFlag="k"+$sortFlag
 fi
 task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | grep -i $iplist | wc -l)
 
@@ -73,7 +75,7 @@ do
 show_progress $count $task_in_total
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | grep -i $iplist))
 
-echo -e $list | sort -t , -$sortFlags
+echo -e $list | sort -t , -$sortFlag
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
 echo "min provider: "$mintxt "("$min"ms)"
 echo "max provider: "$maxtxt "("$max"ms)"
