@@ -24,7 +24,7 @@ do
             maxtxt="$output"
         fi
     fi
-done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt| tail -n +4))
+done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt| tail -n +4))
 
 echo -e $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
