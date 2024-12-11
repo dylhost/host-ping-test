@@ -8,6 +8,7 @@ Credits for original template code https://github.com/johnwmintz/pinglist
 
 Currently available countries:
 >curl -sL https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/pinglist.sh | bash -s -- -c GBR
+
 >curl -sL https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/pinglist.sh | bash -s -- -c SGP
 
 # Features
