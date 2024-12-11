@@ -31,7 +31,7 @@ count=0
 min=999
 max=0
 list=""
-echo "Starting test, this may take a bit." 
+echo "Starting test, this may take a bit."
 while getopts c: flag
 do
     case "${flag}" in
@@ -39,13 +39,12 @@ do
     esac
 done
 
-case $iplist in
-    SGP) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/SGP";;
-    GBR) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/GBR";;
-    *) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt";;
-esac
+if [ -z ${iplist+x} ]
+    then
+        iplist="."
+fi
 
-task_in_total=$(curl -s "$iplist" | wc -l)
+task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt | grep -i $iplist | wc -l)
 
 while read output
 do
@@ -67,7 +66,7 @@ do
         fi
     fi
 show_progress $count $task_in_total
-done < <((curl -s "$iplist"))
+done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt | grep -i $iplist))
 
 echo -e $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
