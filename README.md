@@ -1,36 +1,36 @@
 Credits for original template code https://github.com/johnwmintz/pinglist
 
 # How to run
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s
+```
+curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s
+```
 
-## Optionally specify a country
-Note country codes are [ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c CODE
+### Flags
+```
+curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -flags
+```
+| Flag | Description |
+| ---- | ----------- |
+| -c Country | Specify country to test |
+| -s SortCode | Specify sort flag |
 
-Examples:
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c GBR
+Countries list:
+([ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3))
 
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
-
-## Optionally specify host
-Same as above, just specify host instead. Example:
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
-
-## Optional sort options
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s (option)
-
-No flag. Sort by ping (desending) 
+### Sort flags:
+No flag: Sort by ping (desending) 
 1. Sort by ping (assending)
 2. Sort by IP
 3. Sort by host name
 4. Sort by City
 5. Sort by Country code
 
-Example:
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s 5
+### Examples
+Test SGP
+>curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
 
-# Features
-- Outputs total & Average (good for determining how well your server is peered internationally)
-- Outputs min/max
-- Added https://looking.house/ database of test IPs. If you would like test files, look for the provider on their site
-- Option to select specific country to test (use ISO country codes, see examples above)
+Test Hosthatch
+>curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
+
+Sort by country code
+>curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s 5
