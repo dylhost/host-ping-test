@@ -55,7 +55,7 @@ do
         fi
     fi
 show_progress $count $task_in_total
-done < <(($iplist| tail -n +4))
+done < <((echo $iplist| tail -n +4))
 
 echo -e $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
