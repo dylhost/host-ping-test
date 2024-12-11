@@ -31,9 +31,21 @@ count=0
 min=999
 max=0
 list=""
-echo "Starting test, this may take a bit."
-task_in_total=750
-iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt"
+echo "Starting test, this may take a bit." 
+while getopts c: flag
+do
+    case "${flag}" in
+        c) iplist=${OPTARG};;
+    esac
+done
+
+case $iplist in
+    SGP) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/SGP";;
+    GBR) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/countries/GBR";;
+    *) iplist="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt";;
+esac
+
+task_in_total=$(curl -s "$iplist" | wc -l)
 
 while read output
 do
@@ -55,7 +67,7 @@ do
         fi
     fi
 show_progress $count $task_in_total
-done < <((curl -s "$iplist" | tail -n +4))
+done < <((curl -s "$iplist"))
 
 echo -e $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
