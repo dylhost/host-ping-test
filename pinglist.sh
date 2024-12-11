@@ -2,7 +2,8 @@ total=0
 count=0
 min=999
 max=0
-while read output
+
+(while read output
 do
     ping=$(ping -4 -qc1 $(echo $output | cut -d ";" -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }')
     echo $ping" ms" $output
@@ -21,7 +22,7 @@ do
             maxtxt="$output"
         fi
     fi
-done < <(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt| tail -n +4)
+done | sort -nr) < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt| tail -n +4))
 
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
 echo "min provider: "$mintxt "("$min"ms)"
