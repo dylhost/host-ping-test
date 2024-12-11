@@ -26,7 +26,7 @@ No flag: Sort by ping (desending)
 5. Sort by Country code
 
 ### Examples
-Test SGP
+Test all SGP hosts
 ```
 curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
 ```
