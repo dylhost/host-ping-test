@@ -31,7 +31,7 @@ Test all SGP hosts
 curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
 ```
 
-Test Hosthatch
+Test Hosthatch Hosts
 ```
 curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
 ```
