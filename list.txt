@@ -162,32 +162,6 @@ speedtest.washington.linode.com ; Linode (Akamai) ; Washington, D.C., United Sta
 104.194.133.41 ; cloudzy.com ; Amsterdam, NL
 103.214.68.4 ; extravm.com ; Amsterdam, NL
 2.58.57.56 ; hybula.net ; Amsterdam, NL
-Conversation opened. 3 messages. 1 message unread.
-
-Skip to content
-Using Gmail with screen readers
-10 of 4,984
-Re: Feedback - Looking.house
-Inbox
-
-Leonid Sizov
-09:07 (8 hours ago)
-Hi Dylan, Can you please explain what "host" means? PTR record? On Tue, Dec 10, 2024 at 3:00 AM <info@looking.house> wrote: Name: Dylan Currie E-mail: dylsecure
-
-Dylan
-11:41 (6 hours ago)
-As in the provider, ie “hosthatch”
-
-Leonid Sizov
-Attachments
-12:16 (5 hours ago)
-to me
-
-Done, please check
-
-One attachment
-  • Scanned by Gmail
-Looks good, thanks!Fixed!What?
 107.181.187.112; ITL DC(QuadraNet); USA, CA, Los-Angeles
 195.123.233.22; ITL DC(XO Communications); USA, NJ, Secaucus
 195.123.237.53; ITL DC(Telstra); Singapore, Singapore
