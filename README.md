@@ -16,3 +16,6 @@ Currently available countries:
 - Outputs total & Average (good for determining how well your server is peered internationally)
 - Outputs min/max
 - Added https://looking.house/ database of test IPs. If you would like test files, look for the provider on their site
+
+# Future features
+Eventually I'll make it pull the one list and use the country codes in it so ALL countries will be supported.
