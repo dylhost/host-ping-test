@@ -11,8 +11,8 @@ curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main
 ```
 | Flag | Description |
 | ---- | ----------- |
-| -c Country | Specify country to test |
-| -s SortCode | Specify sort flag |
+| -c | Specify country to test |
+| -s | Specify sort flag (options below) |
 
 Countries list:
 ([ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3))
