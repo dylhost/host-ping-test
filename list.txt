@@ -1,6 +1,3 @@
-# This is the list file that you place all IPs.
-# Format: IP ; Host (Datacentre) ; Location
-# Place all IPs below this line.  
 83.138.53.15 ; HostHatch (Equinix AM3) ; Amsterdam, NL 
 193.29.62.40 ; HostHatch (CoreSite CH2) ; Chicago, US  
 103.214.22.76 ; HostHatch (Equinix HK1) ; Hong Kong 
