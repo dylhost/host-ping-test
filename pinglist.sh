@@ -33,6 +33,7 @@ max=0
 list=""
 echo "Starting test, this may take a bit."
 task_in_total=750
+iplist=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt)
 
 while read output
 do
@@ -54,7 +55,7 @@ do
         fi
     fi
 show_progress $count $task_in_total
-done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt| tail -n +4))
+done < <(($iplist| tail -n +4))
 
 echo -e $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
