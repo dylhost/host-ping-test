@@ -27,10 +27,16 @@ No flag: Sort by ping (desending)
 
 ### Examples
 Test SGP
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
+```
+curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
+```
 
 Test Hosthatch
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
+```
+curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -c HostHatch
+```
 
 Sort by country code
->curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s 5
+```
+curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh | bash -s -- -s 5
+```
