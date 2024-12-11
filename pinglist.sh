@@ -44,7 +44,7 @@ if [ -z ${iplist+x} ]
         iplist="."
 fi
 
-task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt | grep -i $iplist | wc -l)
+task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | grep -i $iplist | wc -l)
 
 while read output
 do
@@ -66,7 +66,7 @@ do
         fi
     fi
 show_progress $count $task_in_total
-done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/list.txt | grep -i $iplist))
+done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | grep -i $iplist))
 
 echo -e $list | sort -nr
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
