@@ -4,6 +4,7 @@ Credits for original template code https://github.com/johnwmintz/pinglist
 >curl -sL https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/pinglist.sh | bash -s
 
 # Optionally specify a country
+Note country codes are [ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
 >curl -sL https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/dev/pinglist.sh | bash -s -- -c CODE
 
 Currently available countries:
