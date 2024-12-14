@@ -97,7 +97,7 @@ de-fra-2.speedtest.linode.com, Linode (Akamai), Frankfurt Expansion, DEU
 185.254.96.104, Avoro(Maincubes), Frankfurt am Main, DEU
 103.153.157.26, FullTime Hosting(Equinix), Frankfurt am Main, DEU
 51.195.35.4, BlueVPS(OVH), Limburg, DEU
-85.239.60.249, BlueVPS(MyLoc), Dusseldorf, DEU
+85.239.60.249, BlueVPS(Telehouse), London, GBR
 80.92.204.12, PQ.Hosting, Frankfurt am Main, DEU
 89.44.194.71, Gcore, Frankfurt am Main, DEU
 5.178.106.128, IPhoster(OVH), Limburg, DEU
