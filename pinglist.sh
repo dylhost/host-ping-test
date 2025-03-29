@@ -5,6 +5,7 @@ do
         c) iplist=${OPTARG};;
         s) sortFlag=${OPTARG};;
         t) timeout=${OPTARG};;
+        dev) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest.txt";;
     esac
 done
 
@@ -23,6 +24,11 @@ fi
 if [ -z ${timeout} ]
     then
         timeout=1
+fi
+
+if [ -z ${dev} ]
+    then
+        url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt
 fi
 
 # Progress bar
@@ -61,7 +67,7 @@ ping_ip() {
 }
 
 count=0
-task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}' | wc -l)
+task_in_total=$(curl -s $url | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}' | wc -l)
 
 while read output
 do
@@ -72,7 +78,7 @@ do
     if [ $count -ge $task_in_total ]; then
         wait -n  # Wait for any background job to complete
     fi
-done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}'))
+done < <((curl -s $url | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}'))
 
 
 # Wait for remaining jobs to complete
