@@ -72,6 +72,7 @@ function ping() {
         fi
     fi
     show_progress $count $task_in_total
+    echo $list
 }
 
 while read output
