@@ -55,7 +55,7 @@ task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test
 
 while read output
 do
-    ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }')
+    ping=$(ping -4 -qc1 -i 1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }')
     list="${list}\n${ping}ms, ${output}"
     total=$(echo "$total+$ping" | bc)
     count=$(echo "$count+1" | bc)
