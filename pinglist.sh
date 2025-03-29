@@ -5,7 +5,7 @@ do
         c) iplist=${OPTARG};;
         s) sortFlag=${OPTARG};;
         t) timeout=${OPTARG};;
-        d) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest.txt";;
+        d) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest";;
     esac
 done
 
