@@ -202,7 +202,6 @@ speedtest.paris.linode.com, Linode (Akamai), Paris, FRA
 108.61.209.127, vultr, Paris, FRA
 150.107.201.10, HostHatch (Iron Mountain LON01), London, GBR
 130.185.251.6, Alphavps, London, GBR
-GBR1.as16276.ovh, OVH, England, GBR
 eri.as16276.ovh, OVH, England, GBR
 speedtest.london.linode.com, Linode (Akamai), London, GBR
 gb-lon.speedtest.linode.com, Linode (Akamai), London Expansion, GBR
@@ -536,7 +535,6 @@ oza.as16276.ovh, OVH, POL, POL
 sin1.as16276.ovh, OVH,Singapore, SGP
 sgp.as16276.ovh, OVH,Singapore, SGP
 sin.as16276.ovh, OVH,Singapore, SGP
-speedtest.SGP.linode.com, Linode (Akamai), Singapore, SGP
 sg-sin-2.speedtest.linode.com, Linode (Akamai), Singapore Expansion, SGP
 103.126.138.20, Psychz.net, Singapore, SGP
 45.32.100.168, vultr, Singapore, SGP
