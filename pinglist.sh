@@ -1,5 +1,5 @@
 #!/bin/bash
-while getopts c:s: flag
+while getopts c:s:t:d flag
 do
     case "${flag}" in
         c) iplist=${OPTARG};;
