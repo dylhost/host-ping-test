@@ -2,43 +2,33 @@
 
 # Function to ping a single IP
 ping_ip() {
-    local ip=$($1 | awk -F ", "  {print $1})
+    local ip=$(echo $1 | cut -d "," -f 1)
     local timeout="${2:-3}"  # Default timeout of 3 seconds if not specified
     local result
-
-    # Ping with a specific count and timeout
-    result=$(ping -c 1 -W "$timeout" "$ip" 2>&1)
-
-    # Check ping result and output
-    if [ $? -eq 0 ]; then
-        echo "✓ $ip: Reachable"
-    else
-        echo "✗ $ip: Unreachable - $result"
-    fi
+    result=$(ping -qc2 -W "$timeout" "$ip" | awk -F '/' 'END{ print (/^rtt/? $5:"FAIL") }')
+        echo "$1" "$result"
 }
 
 # Export the function so it can be used by parallel
 export -f ping_ip
 
-local ip_file="test.txt"
+# Main script
+main() {
 
-# Check if input file exists
-if [ ! -f "$ip_file" ]; then
-        echo "Error: File '$ip_file' not found."
+    # Check for GNU Parallel
+    if ! command -v parallel &> /dev/null; then
+        echo "Error: GNU Parallel is required. Please install it:"
+        echo "  On Debian/Ubuntu: sudo apt-get install parallel"
+        echo "  On CentOS/RHEL: sudo yum install parallel"
+        echo "  On macOS with Homebrew: brew install parallel"
         exit 1
-fi
-
-# Check for GNU Parallel
-if ! command -v parallel &> /dev/null; then
-    echo "Error: GNU Parallel is required. Please install it:"
-    echo "  On Debian/Ubuntu: sudo apt-get install parallel"
-    echo "  On CentOS/RHEL: sudo yum install parallel"
-    echo "  On macOS with Homebrew: brew install parallel"
-    exit 1
     fi
 
-# Ping IPs in parallel
-echo "Pinging IPs from $ip_file..."
-list.txt | parallel -j10 ping_ip
+    # Ping IPs in parallel
+    echo "Pinging IPs from $ip_file..."
+    cat list.txt | parallel -j10 ping_ip
+    echo "Ping completed."
+}
 
-echo "Ping completed."
+# Run the main function with the provided IP list file
+main "$@"
