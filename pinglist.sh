@@ -74,7 +74,7 @@ function ping {
 }
 
 while read output
-    ping(output) &
+    ping "$output" &
 do
 
 show_progress $count $task_in_total
