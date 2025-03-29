@@ -13,6 +13,8 @@ curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main
 | ---- | ----------- |
 | -c | Specify country to test |
 | -s | Specify sort flag (options below) |
+| -t | Ping timeout (default 1s) |
+| -dev | Use listtest instead of list.txt |
 
 ### Countries Flags:
 [ISO 3166-1 alpha-3 format](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3)
