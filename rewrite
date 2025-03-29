@@ -2,7 +2,7 @@
 
 # Function to ping a single IP
 ping_ip() {
-    local ip="$1"
+    local ip=$($1 | awk -F ", "  {print $1}")
     local timeout="${2:-3}"  # Default timeout of 3 seconds if not specified
     local result
 
@@ -41,7 +41,7 @@ main() {
 
     # Ping IPs in parallel
     echo "Pinging IPs from $ip_file..."
-    list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $1}' | parallel -j10 ping_ip
+    list.txt | parallel -j10 ping_ip
 
     echo "Ping completed."
 }
