@@ -1,0 +1,56 @@
+#!/bin/bash
+
+# Function to ping a single IP
+ping_ip() {
+    local ip="$1"
+    local timeout="${2:-3}"  # Default timeout of 3 seconds if not specified
+    local result
+
+    # Ping with a specific count and timeout
+    result=$(ping -c 1 -W "$timeout" "$ip" 2>&1)
+
+    # Check ping result and output
+    if [ $? -eq 0 ]; then
+        echo "✓ $ip: Reachable"
+    else
+        echo "✗ $ip: Unreachable - $result"
+    fi
+}
+
+# Export the function so it can be used by parallel
+export -f ping_ip
+
+# Main script
+main() {
+    # Check if input file is provided
+    if [ $# -eq 0 ]; then
+        echo "Usage: $0 <ip_list_file>"
+        exit 1
+    fi
+
+    local ip_file="$1"
+
+    # Check if input file exists
+    if [ ! -f "$ip_file" ]; then
+        echo "Error: File '$ip_file' not found."
+        exit 1
+    }
+
+    # Check for GNU Parallel
+    if ! command -v parallel &> /dev/null; then
+        echo "Error: GNU Parallel is required. Please install it:"
+        echo "  On Debian/Ubuntu: sudo apt-get install parallel"
+        echo "  On CentOS/RHEL: sudo yum install parallel"
+        echo "  On macOS with Homebrew: brew install parallel"
+        exit 1
+    }
+
+    # Ping IPs in parallel
+    echo "Pinging IPs from $ip_file..."
+    curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}' | parallel -j10 ping_ip
+
+    echo "Ping completed."
+}
+
+# Run the main function with the provided IP list file
+main "$@"
