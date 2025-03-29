@@ -78,6 +78,7 @@ do
     ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" &
     count=$(echo "$count+1" | bc) &
     show_progress $count $task_in_total &
+    sleep 0.2s
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
 
 echo -e $list | sort -t , -$sortFlag
