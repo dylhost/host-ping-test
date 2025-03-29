@@ -34,7 +34,7 @@ main() {
     if [ ! -f "$ip_file" ]; then
         echo "Error: File '$ip_file' not found."
         exit 1
-    }
+    fi
 
     # Check for GNU Parallel
     if ! command -v parallel &> /dev/null; then
@@ -43,7 +43,7 @@ main() {
         echo "  On CentOS/RHEL: sudo yum install parallel"
         echo "  On macOS with Homebrew: brew install parallel"
         exit 1
-    }
+    fi
 
     # Ping IPs in parallel
     echo "Pinging IPs from $ip_file..."
