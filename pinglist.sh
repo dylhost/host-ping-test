@@ -28,7 +28,7 @@ fi
 
 if [ -z ${dev} ]
     then
-        url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt
+        url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt"
 fi
 
 # Progress bar
