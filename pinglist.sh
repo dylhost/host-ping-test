@@ -76,8 +76,8 @@ function ping() {
 
 export -f ping
 export -f show_progress
-
-parallel -j 20 ping ::: (curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}') ::: "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" "$task_in_total"
+pinglist=(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}')
+parallel -j 20 ping ::: $pinglist ::: "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" "$task_in_total"
 
 echo -e $list | sort -t , -$sortFlag
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
