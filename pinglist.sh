@@ -1,11 +1,11 @@
 #!/bin/bash
-while getopts c:s:t:dev flag
+while getopts c:s:t:d flag
 do
     case "${flag}" in
         c) iplist=${OPTARG};;
         s) sortFlag=${OPTARG};;
         t) timeout=${OPTARG};;
-        dev) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest.txt";;
+        d) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest.txt";;
     esac
 done
 
