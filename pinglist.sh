@@ -63,6 +63,7 @@ function ping() {
     local mintxt=$mintxt
     local max=$max
     local maxtxt=$maxtxt
+    local task_in_total=$task_in_total
     echo $ping
     export list="${list}\n${ping}ms, ${output}"
     export count=$(echo "$count+1" | bc)
