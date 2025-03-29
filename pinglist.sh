@@ -58,7 +58,6 @@ function ping() {
     local ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }') 
     declare -g list="${list}\n${ping}ms, ${output}"
     declare -g total=$(echo "$total+$ping" | bc)
-    declare -g count=$(echo "$count+1" | bc)
     if (( $(echo "$ping" != "FAIL" | bc -l) ))
     then
         if (( $(echo "$ping < $min" | bc -l) ))
@@ -76,7 +75,8 @@ function ping() {
 
 while read output
 do
-    ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" &
+    ping "$output" "$list" "$total" "$min" "$mintxt" "$max" "$maxtxt" &
+    count=$(echo "$count+1" | bc) &
     show_progress $count $task_in_total
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
 
