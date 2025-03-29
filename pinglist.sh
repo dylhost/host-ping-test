@@ -77,6 +77,7 @@ function ping() {
 while read output
 do
     ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" &
+    echo $count
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
 
 echo -e $list | sort -t , -$sortFlag
