@@ -22,13 +22,7 @@ export -f ping_ip
 
 # Main script
 main() {
-    # Check if input file is provided
-    if [ $# -eq 0 ]; then
-        echo "Usage: $0 <ip_list_file>"
-        exit 1
-    fi
-
-    local ip_file="$1"
+    local ip_file="test.txt"
 
     # Check if input file exists
     if [ ! -f "$ip_file" ]; then
