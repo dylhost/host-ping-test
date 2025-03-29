@@ -77,6 +77,19 @@ speedtest.toronto1.linode.com, Linode (Akamai), Toronto, CAN
 216.73.159.15, Zappie Host, Valdivia, Chile
 190.120.230.60, Server Wala, Santiago, Chile
 43.247.70.141, SakuraServer(SakuraServer), Shenzhen, CHN
+61.139.2.69, China Telecom , Chengdu, CHN
+101.6.15.66, CERNET, Beijing, CHN
+106.4.158.58, China Telecom, Shanghai, CHN
+211.137.96.205, China Mobile, Chengdu, CHN
+219.141.136.12, China Telecom, Beijing, CHN
+202.106.50.1, China Unicom , Beijing, CHN
+210.21.196.6, China Unicom , Guangzhou, CHN
+120.196.165.24, China Mobile, Guangzhou, CHN
+223.111.101.29, China Mobile, Shanghai, CHN
+58.60.188.222, China Telecom, Guangzhou, CHN
+221.179.155.161, China Mobile, Beijing, CHN
+119.6.6.6, China Unicom, Chengdu, CHN
+221.194.154.193, China Unicom , Shanghai, CHN
 190.120.231.84, Server Wala, Bogota, COL
 85.239.40.199, BlueVPS(CloudLayer8), Limassol, CYP
 185.205.187.56, HostZealot, Limassol, CYP
