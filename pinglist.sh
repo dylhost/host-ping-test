@@ -1,9 +1,35 @@
 #!/bin/bash
+while getopts c:s: flag
+do
+    case "${flag}" in
+        c) iplist=${OPTARG};;
+        s) sortFlag=${OPTARG};;
+        t) timeout=${OPTARG};;
+    esac
+done
+
+if [ -z ${iplist+x} ]
+    then
+        iplist=""
+fi
+
+if [ -z ${sortFlag} ]
+    then
+        sortFlag="nr"
+    else
+        sortFlag="k"+$sortFlag
+fi
+
+if [ -z ${timeout} ]
+    then
+        timeout=1
+fi
+
+# Progress bar
 bar_size=40
 bar_char_done="#"
 bar_char_todo="-"
 bar_percentage_scale=2
-
 function show_progress {
     current="$1"
     total="$2"
@@ -22,60 +48,35 @@ function show_progress {
     echo -ne "\rProgress : [${done_sub_bar}${todo_sub_bar}] ${percent}%"
 
     if [ $total -eq $current ]; then
-        echo -e "\nDONE"
+        echo -e "\nWaiting for responses..."
     fi
 }
 
-total=0
+# Function to ping an IP and log the result
+ping_ip() {
+    local ip=$(echo $1 | cut -d "," -f 1 2>&1)
+    local result
+    result=$(ping -qc2 -W "$timeout" "$ip" | awk -F '/' 'END{ print (/^rtt/? $5:"FAIL") }')
+    echo "$result ms, $1" >> output.txt
+}
+
 count=0
-min=999
-max=0
-list=""
-echo "Starting test, this may take a bit."
-while getopts c:s: flag
-do
-    case "${flag}" in
-        c) iplist=${OPTARG};;
-        s) sortFlag=${OPTARG};;
-    esac
-done
-
-if [ -z ${iplist+x} ]
-    then
-        iplist=""
-fi
-
-if [ -z ${sortFlag} ]
-    then
-        sortFlag="nr"
-    else
-        sortFlag="k"+$sortFlag
-fi
-task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}' | wc -l)
+task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}' | wc -l)
 
 while read output
 do
-    ping=$(timeout 1 ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }')
-    list="${list}\n${ping}ms, ${output}"
-    total=$(echo "$total+$ping" | bc)
+    # Run ping in background
+    ping_ip "$output" "$timeout" "$list" &
     count=$(echo "$count+1" | bc)
-    if (( $(echo "$ping" != "FAIL" | bc -l) ))
-    then
-        if (( $(echo "$ping < $min" | bc -l) ))
-        then
-            min=$ping
-            mintxt="$output"
-        fi
-        if (( $(echo "$ping > $max" | bc -l) ))
-        then
-            max=$ping
-            maxtxt="$output"
-        fi
+    show_progress $count $task_in_total
+    if [ $count -ge $task_in_total ]; then
+        wait -n  # Wait for any background job to complete
     fi
-show_progress $count $task_in_total
-done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
+done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}'))
 
-echo -e $list | sort -t , -$sortFlag
-echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
-echo "min provider: "$mintxt "("$min"ms)"
-echo "max provider: "$maxtxt "("$max"ms)"
+
+# Wait for remaining jobs to complete
+wait
+
+cat output.txt | sort -t , -$sortFlag
+rm output.txt
