@@ -20,31 +20,25 @@ ping_ip() {
 # Export the function so it can be used by parallel
 export -f ping_ip
 
-# Main script
-main() {
-    local ip_file="test.txt"
+local ip_file="test.txt"
 
-    # Check if input file exists
-    if [ ! -f "$ip_file" ]; then
+# Check if input file exists
+if [ ! -f "$ip_file" ]; then
         echo "Error: File '$ip_file' not found."
         exit 1
+fi
+
+# Check for GNU Parallel
+if ! command -v parallel &> /dev/null; then
+    echo "Error: GNU Parallel is required. Please install it:"
+    echo "  On Debian/Ubuntu: sudo apt-get install parallel"
+    echo "  On CentOS/RHEL: sudo yum install parallel"
+    echo "  On macOS with Homebrew: brew install parallel"
+    exit 1
     fi
 
-    # Check for GNU Parallel
-    if ! command -v parallel &> /dev/null; then
-        echo "Error: GNU Parallel is required. Please install it:"
-        echo "  On Debian/Ubuntu: sudo apt-get install parallel"
-        echo "  On CentOS/RHEL: sudo yum install parallel"
-        echo "  On macOS with Homebrew: brew install parallel"
-        exit 1
-    fi
+# Ping IPs in parallel
+echo "Pinging IPs from $ip_file..."
+list.txt | parallel -j10 ping_ip
 
-    # Ping IPs in parallel
-    echo "Pinging IPs from $ip_file..."
-    list.txt | parallel -j10 ping_ip
-
-    echo "Ping completed."
-}
-
-# Run the main function with the provided IP list file
-main "$@"
+echo "Ping completed."
