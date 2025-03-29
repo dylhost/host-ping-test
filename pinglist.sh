@@ -53,25 +53,30 @@ if [ -z ${sortFlag} ]
 fi
 task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}' | wc -l)
 
-while read output
-do
-    ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }') &
-    list="${list}\n${ping}ms, ${output}" &
-    total=$(echo "$total+$ping" | bc) &
-    count=$(echo "$count+1" | bc) &
+function ping {
+    ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }') 
+    list="${list}\n${ping}ms, ${output}"
+    total=$(echo "$total+$ping" | bc)
+    count=$(echo "$count+1" | bc)
     if (( $(echo "$ping" != "FAIL" | bc -l) ))
     then
         if (( $(echo "$ping < $min" | bc -l) ))
         then
-            min=$ping &
-            mintxt="$output" &
+            min=$ping
+            mintxt="$output"
         fi
         if (( $(echo "$ping > $max" | bc -l) ))
         then
-            max=$ping &
-            maxtxt="$output" &
+            max=$ping
+            maxtxt="$output"
         fi
     fi
+}
+
+while read output
+    ping(output) &
+do
+
 show_progress $count $task_in_total
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
 
