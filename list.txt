@@ -90,6 +90,16 @@ speedtest.toronto1.linode.com, Linode (Akamai), Toronto, CAN
 221.179.155.161, China Mobile, Beijing, CHN
 119.6.6.6, China Unicom, Chengdu, CHN
 221.194.154.193, China Unicom , Shanghai, CHN
+101.95.255.1, China Telecom, Beijing, CHN
+118.178.123.58, Alibaba Cloud, Shanghai, CHN
+139.224.136.12, Tencent Cloud, Guangzhou, CHN
+182.61.200.100, Huawei Cloud, Shenzhen, CHN
+183.56.64.41, Alibaba Cloud, Hangzhou, CHN
+202.102.15.10, China Unicom, Chengdu, CHN
+220.181.38.148, Baidu Cloud, Beijing, CHN
+222.75.158.131, China Mobile, Xi'an, CHN
+222.186.29.7, China Telecom, Nanjing, CHN
+223.5.5.5, Tencent Cloud, Shanghai, CHN
 190.120.231.84, Server Wala, Bogota, COL
 85.239.40.199, BlueVPS(CloudLayer8), Limassol, CYP
 185.205.187.56, HostZealot, Limassol, CYP
