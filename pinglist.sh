@@ -74,6 +74,8 @@ function ping() {
     fi    
 }
 
+export -f ping
+
 while read output
 do
     ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" "$task_in_total" &
