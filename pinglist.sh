@@ -54,6 +54,16 @@ fi
 task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}' | wc -l)
 
 function ping() {
+    local output=$output
+    local ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }') 
+    local list=$list
+    local count=$count
+    local total=$total
+    local min=$min
+    local mintxt=$mintxt
+    local max=$max
+    local maxtxt=$maxtxt
+    local task_in_total=$task_in_total
     echo $ping
     export list="${list}\n${ping}ms, ${output}"
     export count=$(echo "$count+1" | bc)
@@ -76,8 +86,12 @@ function ping() {
 
 export -f ping
 export -f show_progress
-pinglist=(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}')
-parallel -j 20 ping ::: $pinglist ::: "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" "$task_in_total"
+
+while read output
+do
+    ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" "$task_in_total" &
+    sleep 0.2s
+done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
 
 echo -e $list | sort -t , -$sortFlag
 echo "min/avg/max/total" $min"/"$(echo "$total/$count" | bc)""/""$max"/""$total"
