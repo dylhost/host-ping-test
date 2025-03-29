@@ -47,7 +47,7 @@ main() {
 
     # Ping IPs in parallel
     echo "Pinging IPs from $ip_file..."
-    list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}' | parallel -j10 ping_ip
+    list.txt | awk -F ", " -v ipList=$iplist '$4 == ipList {print $1}' | parallel -j10 ping_ip
 
     echo "Ping completed."
 }
