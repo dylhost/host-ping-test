@@ -1,87 +1,20 @@
-47.95.183.121,Alibaba Cloud,Hangzhou,CHN
-139.224.70.239,Alibaba Cloud,Beijing,CHN
-40.73.9.123,Alibaba Cloud,Singapore,SGP
-47.252.36.94,Alibaba Cloud,Hong Kong,HKG
-52.80.215.190,Alibaba Cloud,Frankfurt,DEU
-47.91.158.165,Alibaba Cloud,Sydney,AUS
-43.255.113.32,Alibaba Cloud,Sydney,AUS
-47.56.83.144,Alibaba Cloud,Silicon Valley,USA
-52.220.242.196,Alibaba Cloud,Tokyo,JPN
-47.241.120.39,Alibaba Cloud,Kuala Lumpur,MYS
-140.205.234.55,Alibaba Cloud,Shenzhen,CHN
-47.56.14.206,Alibaba Cloud,Beijing,CHN
-47.91.110.10,Alibaba Cloud,Melbourne,AUS
-118.31.19.139,Alibaba Cloud,Hong Kong,HKG
-139.224.71.50,Alibaba Cloud,Hangzhou,CHN
-47.96.70.245,Alibaba Cloud,Shanghai,CHN
-40.74.80.95,Alibaba Cloud,Singapore,SGP
-52.80.215.151,Alibaba Cloud,Taipei,TWN
-120.55.173.145,Alibaba Cloud,Guangzhou,CHN
-43.255.113.73,Alibaba Cloud,Melbourne,AUS
-139.224.124.53,Alibaba Cloud,Hangzhou,CHN
-47.97.115.32,Alibaba Cloud,Shenzhen,CHN
-40.73.6.220,Alibaba Cloud,Seattle,USA
-139.224.146.173,Alibaba Cloud,Qingdao,CHN
-47.241.119.152,Alibaba Cloud,Kuala Lumpur,MYS
-120.26.196.150,Alibaba Cloud,Datacenter2,CHN
-47.91.227.8,Alibaba Cloud,Hong Kong,HKG
-139.223.81.42,Alibaba Cloud,Shenzhen,CHN
-47.106.135.230,Alibaba Cloud,Zhangjiakou,CHN
-139.224.164.121,Alibaba Cloud,Xiamen,CHN
-52.221.20.147,Alibaba Cloud,Singapore,SGP
-47.241.61.156,Alibaba Cloud,Beijing,CHN
-139.196.176.66,Alibaba Cloud,Hangzhou,CHN
-47.96.70.65,Alibaba Cloud,Shenzhen,CHN
-139.224.228.239,Alibaba Cloud,Guangzhou,CHN
-47.98.120.220,Alibaba Cloud,Tokyo,JPN
-52.80.201.35,Alibaba Cloud,Frankfurt,DEU
-139.217.44.178,Alibaba Cloud,Hong Kong,HKG
-47.241.61.156,Alibaba Cloud,Guangzhou,CHN
-40.74.138.45,Alibaba Cloud,Mumbai,IND
-139.196.10.12,Alibaba Cloud,Beijing,CHN
-47.91.129.138,Alibaba Cloud,Shanghai,CHN
-52.220.241.192,Alibaba Cloud,Sao Paulo,BRA
-47.96.45.82,Alibaba Cloud,Beijing,CHN
-47.97.181.134,Alibaba Cloud,Qingdao,CHN
-139.196.132.9,Alibaba Cloud,Xiamen,CHN
-52.220.192.12,Alibaba Cloud,Singapore,SGP
-139.224.73.99,Alibaba Cloud,Hangzhou,CHN
-47.98.28.11,Alibaba Cloud,Tokyo,JPN
-140.205.146.22,Alibaba Cloud,Shanghai,CHN
-47.56.85.92,Alibaba Cloud,Hong Kong,HKG
-118.31.19.91,Alibaba Cloud,Shenzhen,CHN
-139.224.60.124,Alibaba Cloud,Chengdu,CHN
-47.241.107.108,Alibaba Cloud,Kuala Lumpur,MYS
-220.181.38.148,Alibaba Cloud,Beijing,CHN
-47.24.41.15,Alibaba Cloud,Taiwan,TWN
-52.221.127.179,Alibaba Cloud,Singapore,SGP
-118.178.121.165,Alibaba Cloud,Hong Kong,HKG
-139.224.157.67,Alibaba Cloud,Beijing,CHN
-47.97.89.140,Alibaba Cloud,Hong Kong,HKG
-139.224.206.59,Alibaba Cloud,Shenzhen,CHN
-47.74.145.9,Alibaba Cloud,Singapore,SGP
-139.224.77.201,Alibaba Cloud,Shanghai,CHN
-139.224.243.188,Alibaba Cloud,Guangzhou,CHN
-47.241.123.252,Alibaba Cloud,New York,USA
-47.243.192.145,Alibaba Cloud,Los Angeles,USA
-120.26.195.60,Alibaba Cloud,Shenzhen,CHN
-139.217.22.63,Alibaba Cloud,Xiamen,CHN
-52.220.186.15,Alibaba Cloud,Singapore,SGP
-47.250.20.103,Alibaba Cloud,Tokyo,JPN
-139.224.128.53,Alibaba Cloud,Guangzhou,CHN
-120.27.36.154,Alibaba Cloud,Beijing,CHN
-47.56.145.29,Alibaba Cloud,Hong Kong,HKG
-139.196.18.122,Alibaba Cloud,Shenzhen,CHN
-139.224.12.182,Alibaba Cloud,Hangzhou,CHN
-47.97.241.223,Alibaba Cloud,Qingdao,CHN
-139.224.185.150,Alibaba Cloud,Shanghai,CHN
-47.91.175.145,Alibaba Cloud,Hong Kong,HKG
-139.224.56.39,Alibaba Cloud,Beijing,CHN
-47.243.253.229,Alibaba Cloud,Taipei,TWN
-140.205.238.217,Alibaba Cloud,Shenzhen,CHN
-47.241.126.84,Alibaba Cloud,Guangzhou,CHN
-47.241.77.11,Alibaba Cloud,Zhengzhou,CHN
-139.224.147.13,Alibaba Cloud,Xiamen,CHN
-139.224.243.188,Alibaba Cloud,Hong Kong,HKG
-150.109.43.200,Alibaba Cloud,Hangzhou,CHN
-47.95.16.27,Alibaba Cloud,Taipei,TWN
+203.0.113.1,Oz Cloud Hosting,Sydney,AUS
+203.0.113.2,Oz Cloud Hosting,Melbourne,AUS
+203.0.113.3,Oz Cloud Hosting,Brisbane,AUS
+203.0.113.4,Oz Cloud Hosting,Adelaide,AUS
+203.0.113.5,Oz Cloud Hosting,Perth,AUS
+203.0.113.6,Oz Cloud Hosting,Canberra,AUS
+203.0.113.7,Oz Cloud Hosting,Hobart,AUS
+203.0.113.8,Oz Cloud Hosting,Darwin,AUS
+203.0.113.9,Oz Cloud Hosting,Gold Coast,AUS
+203.0.113.10,Oz Cloud Hosting,Townsville,AUS
+203.0.113.11,Roo Servers,Sydney,AUS
+203.0.113.12,Roo Servers,Melbourne,AUS
+203.0.113.13,Roo Servers,Brisbane,AUS
+203.0.113.14,Roo Servers,Adelaide,AUS
+203.0.113.15,Roo Servers,Perth,AUS
+203.0.113.16,Roo Servers,Canberra,AUS
+203.0.113.17,Roo Servers,Hobart,AUS
+203.0.113.18,Roo Servers,Darwin,AUS
+203.0.113.19,Roo Servers,Gold Coast,AUS
+203.0.113.20,Roo Servers,Townsville,AUS
