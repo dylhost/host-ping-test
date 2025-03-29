@@ -74,8 +74,9 @@ function ping {
 }
 
 while read output
-    ping "$output" &
 do
+      ping "$output" &
+fi
 
 show_progress $count $task_in_total
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
