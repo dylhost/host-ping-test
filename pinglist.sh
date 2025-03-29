@@ -57,7 +57,6 @@ function ping() {
     ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }') 
     export list="${list}\n${ping}ms, ${output}"
     export count=$(echo "$count+1" | bc)
-    show_progress $count $task_in_total
     export total=$(echo "$total+$ping" | bc)
     if (( $(echo "$ping" != "FAIL" | bc -l) ))
     then
@@ -72,6 +71,7 @@ function ping() {
             export maxtxt="$output"
         fi
     fi    
+    show_progress $count $task_in_total
 }
 
 export -f ping
