@@ -1,20 +1,25 @@
-203.0.113.1,Oz Cloud Hosting,Sydney,AUS
-203.0.113.2,Oz Cloud Hosting,Melbourne,AUS
-203.0.113.3,Oz Cloud Hosting,Brisbane,AUS
-203.0.113.4,Oz Cloud Hosting,Adelaide,AUS
-203.0.113.5,Oz Cloud Hosting,Perth,AUS
-203.0.113.6,Oz Cloud Hosting,Canberra,AUS
-203.0.113.7,Oz Cloud Hosting,Hobart,AUS
-203.0.113.8,Oz Cloud Hosting,Darwin,AUS
-203.0.113.9,Oz Cloud Hosting,Gold Coast,AUS
-203.0.113.10,Oz Cloud Hosting,Townsville,AUS
-203.0.113.11,Roo Servers,Sydney,AUS
-203.0.113.12,Roo Servers,Melbourne,AUS
-203.0.113.13,Roo Servers,Brisbane,AUS
-203.0.113.14,Roo Servers,Adelaide,AUS
-203.0.113.15,Roo Servers,Perth,AUS
-203.0.113.16,Roo Servers,Canberra,AUS
-203.0.113.17,Roo Servers,Hobart,AUS
-203.0.113.18,Roo Servers,Darwin,AUS
-203.0.113.19,Roo Servers,Gold Coast,AUS
-203.0.113.20,Roo Servers,Townsville,AUS
+http://lg.aussiebroadband.com.au/, Aussie Broadband, Melbourne, AUS
+http://telstra.net.au/lookingglass/, Telstra, Sydney, AUS
+https://www.telestra.co.uk/looking-glass/, Telestra, London, GBR
+https://www.optus.com.au/lookingglass/, Optus, Sydney, AUS
+https://lg.vocus.com.au/, Vocus, Brisbane, AUS
+https://mxtoolbox.com/LookingGlass.aspx, DigitalOcean, New York, USA
+https://linode.com/lookingglass/, Linode, Fremont, USA
+https://lg.he.net/, HE (Hurricane Electric), Fremont, USA
+https://www.cloudflare.com/looking-glass/, Cloudflare, San Francisco, USA
+https://lookingglass.level3.net/, Lumen, Denver, USA
+https://www.nexihost.com/looking-glass/, Nexihost, Bucharest, ROU
+http://lookingglass.comcast.net/, Comcast, Philadelphia, USA
+http://www2.wireless.att.com/lookingglass/, AT&T, Dallas, USA
+https://lg.cogentco.com/, Cogent Communications, Washington, USA
+https://lg.dyn.com/, DYN (Oracle), Manchester, USA
+https://www.verizon.com/looking-glass/, Verizon, New York, USA
+https://lg.gtt.net/, GTT Communications, McLean, USA
+https://www.fastly.com/lookingglass/, Fastly, San Francisco, USA
+https://lg.rebel.com/, Rebel, Toronto, CAN
+https://ntt.net/looking-glass/, NTT Communications, Tokyo, JPN
+http://lookingglass.softlayer.com/, Softlayer (IBM Cloud), Dallas, USA
+http://lg.digiweb.ie/, AS8455 (Digiweb), Dublin, IRL
+https://lookingglass.cox.net/, AS31133 (Cox Communications), Atlanta, USA
+https://lg.mci.com/, AS2828 (MCI), Reston, USA
+https://www.netnod.se/looking-glass/, Netnod, Stockholm, SWE
