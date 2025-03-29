@@ -76,6 +76,7 @@ function ping() {
 }
 
 export -f ping
+export -f show_progress
 
 while read output
 do
