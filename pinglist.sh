@@ -56,7 +56,8 @@ task_in_total=$(curl -s https://raw.githubusercontent.com/dylhost/host-ping-test
 function ping() {
     ping=$(ping -4 -qc1 $(echo $output | cut -d "," -f 1) 2>&1 | awk -F'/' 'END{ print (/^rtt/? $5:"FAIL") }') 
     export list="${list}\n${ping}ms, ${output}"
-    export 
+    export count=$(echo "$count+1" | bc)
+    show_progress $count $task_in_total
     export total=$(echo "$total+$ping" | bc)
     if (( $(echo "$ping" != "FAIL" | bc -l) ))
     then
@@ -75,9 +76,7 @@ function ping() {
 
 while read output
 do
-    ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" &
-    count=$(echo "$count+1" | bc) &
-    show_progress $count $task_in_total &
+    ping "$output" "$list" "$total" "$count" "$min" "$mintxt" "$max" "$maxtxt" "$task_in_total" &
     sleep 0.2s
 done < <((curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest | awk -F ", " -v ipList=$iplist '$4 == ipList {print $0}'))
 
