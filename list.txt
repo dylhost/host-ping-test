@@ -779,6 +779,10 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 185.220.101.1, Lumen, Amsterdam, NLD
 146.0.32.1, AWS, Frankfurt, DEU
 165.227.220.1, DigitalOcean, Toronto, CAN
+128.199.114.60, DigitalOcean, Bangalore, IND
+167.99.121.82, DigitalOcean, Amsterdam, NLD
+162.243.144.111, DigitalOcean, New York, USA
+139.59.87.1, DigitalOcean, San Francisco, USA
 185.132.179.1, G-Core Labs, Luxembourg, LUX
 216.218.185.1, FDCservers, Chicago, USA
 192.69.65.1, GNet, New York, USA
@@ -787,7 +791,6 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 198.27.83.12, OVH, Montreal, CAN
 8.134.32.1, Voxility, Bucharest, ROU
 205.251.198.1, AWS, Seattle, USA
-139.59.87.1, DigitalOcean, San Francisco, USA
 3.108.0.0, AWS, ap-south-1, IND
 96.0.60.0, AWS, ap-south-1-ccu-1, IND
 96.0.80.0, AWS, ap-southeast-2-akl-1, NZL
