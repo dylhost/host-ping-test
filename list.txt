@@ -13,7 +13,6 @@
 45.95.233.44, 4vps(EXA), Paris, FRA
 81.19.140.42, 4vps(EXA), Toronto, CAN
 195.133.88.7, 4vps(InterXion), Vienna, AUT
-185.247.184.112, 4vps(Irideos), Milan, ITA
 81.19.141.48, 4vps(NewTelco), Frankfurt am Main, DEU
 212.18.104.31, 4vps(Omnis Network), AZ, USA
 95.215.108.10, 4vps(PinSPB), Saint-Petersburg, RUS
@@ -37,8 +36,6 @@
 77.91.84.104, AEZA(Interxion), Stockholm, SWE
 194.26.229.21, AEZA(M9), Moscow, RUS
 193.233.202.106, AlexHost(AlexHost), Chisinau, MDA
-183.56.64.41, Alibaba Cloud, Hangzhou, CHN
-118.178.123.58, Alibaba Cloud, Shanghai, CHN
 45.59.100.4, Alphavps, Dallas, USA
 130.185.251.6, Alphavps, London, GBR
 165.140.241.183, Alphavps, Los Angeles, USA
@@ -84,10 +81,7 @@
 15.220.32.0, AWS, us-west-2-phx-1, USA
 15.220.207.0, AWS, us-west-2-sea-1, USA
 220.181.38.148, Baidu Cloud, Beijing, CHN
-185.142.239.130, BlackHOST, Amsterdam, NLD
-185.165.190.150, BlackHOST, Chicago, USA
 213.254.179.140, BlackHOST, London, GBR
-195.144.21.250, BlackHOST, Vienna, AUT
 193.200.17.39, BlueVPS(Atman), Warsaw, POL
 45.150.108.156, BlueVPS(Bezeq International), Tel Aviv-Yafo, ISR
 85.239.40.199, BlueVPS(CloudLayer8), Limassol, CYP
@@ -103,7 +97,6 @@
 103.253.40.148, BlueVPS(Tele-Asia), HKG, HKG
 85.239.60.249, BlueVPS(Telehouse), London, GBR
 91.238.104.199, BYTES, Kyiv, GBR
-199.181.238.12, Catalyst Host LLC(Hivelocity), Dallas, USA
 23.163.208.110, Catalyst Host LLC(Hivelocity), Tampa, USA
 101.6.15.66, CERNET, Beijing, CHN
 216.230.228.150, CharityHost(Oplink.net), Spring, USA
@@ -111,18 +104,15 @@
 211.137.96.205, China Mobile, Chengdu, CHN
 120.196.165.24, China Mobile, Guangzhou, CHN
 223.111.101.29, China Mobile, Shanghai, CHN
-222.75.158.131, China Mobile, Xi'an, CHN
 61.139.2.69, China Telecom , Chengdu, CHN
 101.95.255.1, China Telecom, Beijing, CHN
 219.141.136.12, China Telecom, Beijing, CHN
 58.60.188.222, China Telecom, Guangzhou, CHN
-222.186.29.7, China Telecom, Nanjing, CHN
 106.4.158.58, China Telecom, Shanghai, CHN
 202.106.50.1, China Unicom , Beijing, CHN
 210.21.196.6, China Unicom , Guangzhou, CHN
 221.194.154.193, China Unicom , Shanghai, CHN
 119.6.6.6, China Unicom, Chengdu, CHN
-202.102.15.10, China Unicom, Chengdu, CHN
 31.41.44.247, CISHost(Selectel), Moscow, RUS
 185.68.93.57, CISHost(Telepoint), Sofia, BGR
 37.230.114.19, CLO(IXcellerate), Moscow, RUS
@@ -143,7 +133,6 @@
 192.162.244.89, Datacheap(DataCheap.ru), Moscow, RUS
 199.188.100.133, DediRock(DediRock Buf1), NY, USA
 107.174.123.254, DediRock(DediRock LA1), CA, USA
-198.37.127.161, DediRock(DediRock LA2), Los Angeles, USA
 167.99.121.82, DigitalOcean, Amsterdam, NLD
 128.199.114.60, DigitalOcean, Bangalore, IND
 162.243.144.111, DigitalOcean, New York, USA
@@ -153,13 +142,10 @@
 178.218.213.231, eServer.ru(eServer.Space), Moscow, RUS
 46.30.47.47, Eurobyte(Datacenter.com), Amsterdam, NLD
 95.142.42.64, Eurobyte(DataPro), Moscow, RUS
-162.254.200.205, EuroHoster(Digital Reality), Miami, USA
 185.162.11.47, EuroHoster(Greenhouse), Naaldwijk, NLD
-148.72.172.221, EuroHoster(Netrality), St. Louis, USA
 185.162.10.193, EuroHoster(Telepoint), Sofia, BGR
 103.214.68.4, extravm.com, Amsterdam, NLD
 192.151.137.1, Fastly, San Francisco, USA
-160.20.146.121, fastpipe.io, Frankfurt am Main, DEU
 185.4.74.75, FASTVPS(MayFlower), Johvi, EST
 185.105.225.31, FASTVPS(Selectel), Saint-Petersburg, RUS
 205.196.80.88, FASTVPS(Volico), Pompano Beach, USA
@@ -172,7 +158,6 @@
 103.90.72.204, FirstVDS(euNetworks), Amsterdam, NLD
 37.230.112.48, FirstVDS(IXcellerate), Moscow, RUS
 185.43.4.155, FirstVDS(WebDC), Khimki, RUS
-185.246.188.50, FlokiNET, Amsterdam, NLD
 185.165.171.51, FlokiNET, Bucharest, ROU
 37.228.129.22, FlokiNET, Helsinki, FIN
 185.165.170.23, FlokiNET, Reykjavik, ISL
@@ -184,7 +169,6 @@
 191.96.94.157, FreakHosting(Interwerk), Frankfurt, DEU
 45.13.151.195, FreakHosting(Telesystem), Bacau, ROU
 109.176.229.59, FreakHosting(Velox Server), Redditch, GBR
-104.218.61.164, Free Range Cloud(Harbour Center), Vancouver, CAN
 23.152.226.2, Free Range Cloud(NOCIX), Kansas City, USA
 23.152.224.179, Free Range Cloud, Ashburn, USA
 103.144.176.216, Free Range Cloud, Fremont, USA
@@ -200,7 +184,6 @@
 91.228.6.253, GARMTECH, LVA, Riga
 103.72.162.91, GB Network Solutions(CJ1 Datacenter), Cyberjaya, MAL
 45.8.125.87, GBNhost(Selectel), Saint-Petersburg, RUS
-188.64.185.72, GBR Host4u, Maidenhead, GBR
 92.223.105.198, Gcore(European Data Hub), LUX, LUX
 213.156.137.71, Gcore, Almaty, KAZ
 92.38.184.167, Gcore, Amsterdam, NLD
@@ -228,7 +211,6 @@
 146.185.219.124, Gcore, Tel Aviv-Yafo, ISR
 92.38.178.249, Gcore, Tokyo, JPN
 5.188.108.65, Gcore, Warsaw, POL
-5.134.119.43, GinerNet(Interxion), Madrid, ESP
 139.64.166.166, GlobalTeleHost, Amsterdam, NLD
 142.202.49.166, GlobalTeleHost, Ashburn, USA
 167.88.63.166, GlobalTeleHost, Atlanta, USA
@@ -294,7 +276,6 @@ lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
 191.96.156.42, Hosting Now BR(Hosting Now - CWB1), Curitiba, BRA
 43.224.121.48, Hosting Now NZ(MikiPro Limited), Auckland, NZL
 141.11.5.41, Hosting022(Host Media), Indjija, SRB
-103.150.37.223, HostingInside LTD(Taipei Internet Exchange), Taipei, TWN
 186.68.104.152, HostingSUPREMO(Computeprog S.A.), Guayaquil, ECU
 185.74.254.165, HOSTLIFE(FirstColo), Frankfurt am Main, DEU
 195.16.88.166, HOSTLIFE(Hostlife UA), Kyiv, GBR
@@ -310,7 +291,6 @@ lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
 194.36.191.253, HostSailor, Bucharest, ROU
 185.82.200.10, HostSailor, Roosendaal, NLD
 91.226.221.9, HostUp, Stockholm, SWE
-185.231.233.85, HostWebis, Lisbon, PRT
 181.215.88.122, hostworld Limited, Chicago, USA
 5.181.124.254, hostworld Limited, Coventry, GBR
 51.195.196.60, hostworld Limited, Erith, GBR
@@ -325,7 +305,6 @@ lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
 79.141.174.17, HostZealot, Stockholm, SWE
 79.141.167.48, HostZealot, Toronto, CAN
 91.193.18.210, HostZealot, Warsaw, POL
-103.191.132.25, HostZop(AdaniConneX), Chennai, IND
 103.108.117.245, HostZop, Bangalore, IND
 217.114.43.162, HSHP(M9), Moscow, RUS
 89.107.10.49, HSHP, Frankfurt am Main, DEU
@@ -351,7 +330,6 @@ lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
 107.161.163.163, Iniz.com, Piscataway, USA
 185.145.13.1, InterServer, Secaucus, USA
 185.181.228.254, IP Host(IPHOST.MD), Chisinau, MDA
-51.222.196.32, IPhoster(OVH), Beauharnois, CAN
 5.178.106.128, IPhoster(OVH), Limburg, DEU
 91.199.32.145, IPhoster(OVH), London, GBR
 89.39.120.170, IPhoster(OVH), Roubaix, FRA
@@ -411,7 +389,6 @@ lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
 217.196.97.57, LandVPS, Amsterdam, NLD
 77.221.147.47, LandVPS, Frankfurt, DEU
 77.221.144.47, LandVPS, Helsinki, FIN
-5.42.98.206, LandVPS, Moscow, RUS
 77.221.135.20, LandVPS, NJ, USA
 38.123.137.253, LaunchVPS(Quonix), Philadelphia, USA
 188.241.60.230, Leapswitch, Barcelona, ESP
@@ -426,7 +403,6 @@ lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
 179.43.152.140, Legionbox, Zurich, CHE
 185.215.227.9, LetBox, Dallas, USA
 185.215.224.21, LetBox, Los-Angeles, USA
-185.215.226.26, LetBox, Newark, USA
 speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 speedtest.atlanta.linode.com, Linode (Akamai), Atlanta, USA
 speedtest.chennai.linode.com, Linode (Akamai), Chennai, IND
@@ -467,7 +443,6 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 194.146.57.35, mCloud(CETIN), Belgrade, SRB
 109.248.46.154, mClouds(Dataline Nord-4), Moscow, RUS
 31.56.240.15, Megahost(Kazakh Telecom), Astana, KAZ
-45.136.58.26, Megahost(Kazakh Telecom), Uralsk, KAZ
 45.136.59.80, Megahost(Megahost), Aktau, KAZ
 185.29.124.146, MGNHost(Datapro), Moscow, RUS
 193.0.178.164, MGNHost(Serverius), Meppel, NLD
@@ -475,7 +450,6 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 170.39.224.171, Misaka Network Inc(Equinix), Ashburn, USA
 170.39.226.138, Misaka Network Inc(Equinix), Secaucus, USA
 94.158.244.10, MivoCloud(OneNeck IT Solutions), Bend, USA
-5.252.179.94, MivoCloud(Server Gate), Moscow, RUS
 185.163.45.146, MivoCloud, Chisinau, MDA
 185.225.17.22, MivoCloud, Iasi, ROU
 93.95.115.19, MLNL.HOST, Amsterdam, NLD
@@ -486,31 +460,16 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 146.185.235.163, Mnogoweb(Selectel), Moscow, RUS
 5.8.63.111, Mnogoweb(zColo), Ashburn, USA
 23.227.203.151, MonoVM, FL, USA
-92.242.62.61, NeoServer(Hurricane Fremont), Fremont, USA
 83.166.241.0, NeoServer(NeoServer), Moscow, RUS
 146.247.49.147, Netcetera, Ballasalla, IMN
 194.38.20.223, NTUP(UNIT-DC), Dnipro, GBR
 194.58.33.10, NuxtCloud, Frankfurt am Main, DEU
 194.226.139.73, OnlineVDS(Marosnet), Moscow, RUS
-fra.as16276.ovh, OVH, DEU, DEU
-lim.as16276.ovh, OVH, DEU, DEU
 de1.as16276.ovh, OVH, DEU, DEU
-eri.as16276.ovh, OVH, England, GBR
 rbx.as16276.ovh, OVH, FRA, FRA
 198.27.83.12, OVH, Montreal, CAN
 178.33.193.1, OVH, Paris, FRA
-oza.as16276.ovh, OVH, POL, POL
-waw.as16276.ovh, OVH, Poland, POL
-syd.as16276.ovh, OVH, Sydney, AUS
-us1.as16276.ovh, OVH, USA (East Coast), USA
-vin.as16276.ovh, OVH, USA (East Coast), USA
-hil.as16276.ovh, OVH, USA (West Coast), USA
-us2.as16276.ovh, OVH, USA (West Coast), USA
-sgp.as16276.ovh, OVH,Singapore, SGP
-sin.as16276.ovh, OVH,Singapore, SGP
-sin1.as16276.ovh, OVH,Singapore, SGP
 23.153.72.70, PlasmaRack(iM Critical), FL, USA
-66.11.123.33, PloxHost(Hivelocity), Dallas, USA
 172.111.48.4, PloxHost(Hivelocity), Staten Island, USA
 213.159.76.8, PQ.Hosting, Abovyan, ARM
 45.159.250.40, PQ.Hosting, Almaty, KAZ
@@ -554,7 +513,6 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 77.91.102.6, PQ.Hosting, Warsaw, POL
 213.159.77.178, PQ.Hosting, Zagreb, HRV
 5.182.36.13, PQ.Hosting,Zug, CHE
-185.118.167.185, ProfitServer(ProfitServer), Chelyabinsk, RUS
 185.4.180.200, PS(PS.kz), Almaty, KAZ
 108.181.59.243, Psychz Networks(Psychz Networks), Amsterdam, NLD
 108.181.70.237, Psychz Networks(Psychz Networks), Barcelona, ESP
@@ -563,7 +521,6 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 108.181.134.233, Psychz Networks(Psychz Networks), Herndon, USA
 108.181.120.231, Psychz Networks(Psychz Networks), Johannesburg, ZAF
 108.181.67.238, Psychz Networks(Psychz Networks), London, GBR
-108.181.19.145, Psychz Networks(Psychz Networks), Los Angeles, USA
 108.181.60.130, Psychz Networks(Psychz Networks), Moscow, RUS
 108.181.61.250, Psychz Networks(Psychz Networks), Mumbai, IND
 108.181.69.248, Psychz Networks(Psychz Networks), Sao Paulo, BRA
@@ -610,7 +567,6 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 193.26.115.108, Rdp.sh, Miami, USA
 142.202.240.153, Rdp.sh, Phoenix, USA
 45.138.16.112, Rdp.sh, Warsaw, POL
-192.145.48.1, Rebellion, London, GBR
 198.144.191.1, ReliableSite, New York, USA
 89.191.224.248, RHC Hosting(RHC Hosting), Bromley, GBR
 93.183.104.3, RoboVPS(Akado Telecom), Moscow, RUS
@@ -621,43 +577,24 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 192.95.41.128, SakuraServer(SakuraServer), Beauharnois, CAN
 199.241.190.8, SakuraServer(SakuraServer), Lenoir, USA
 5.135.81.19, SakuraServer(SakuraServer), Roubaix, FRA
-43.247.70.141, SakuraServer(SakuraServer), Shenzhen, CHN
 139.99.30.245, SakuraServer(SakuraServer),Singapore, SGP
 45.136.139.247, Securebit, Zurich, CHE
-45.131.83.41, Sered(bitNAP), Barcelona, ESP
-107.155.27.206, Server Wala, Bangkok, THA
 190.120.231.84, Server Wala, Bogota, COL
-37.221.166.115, Server Wala, Bucharest, ROU
 190.103.176.48, Server Wala, Buenos Aires, ARG
 185.153.230.144, Server Wala, Bursa, TUR
-129.227.242.135, Server Wala, Chennai, IND
 194.105.82.110, Server Wala, Dubai, UAE
 185.137.138.73, Server Wala, Frankfurt, DEU
 118.107.245.133, Server Wala, HKG, HKG
-45.122.220.101, Server Wala, Ho Chi Minh, VNM
-122.10.225.52, Server Wala, Hyderabad, IND
-129.227.39.204, Server Wala, Jakarta, IDN
-176.103.61.101, Server Wala, Kiyv, GBR
-107.155.47.162, Server Wala, Kolkata, IND
 118.107.220.97, Server Wala, Kuala Lumpur, MAL
 138.186.143.53, Server Wala, Lima, PER
 64.56.74.197, Server Wala, Los Angeles, USA
-107.155.103.29, Server Wala, Madrid, ESP
-45.43.50.23, Server Wala, Manila, PHI
-69.67.148.165, Server Wala, Mexico City, MEX
 179.27.200.34, Server Wala, Montevideo, URY
 91.218.114.240, Server Wala, Moscow, RUS
 185.209.75.110, Server Wala, Mumbai, IND
-190.2.130.36, Server Wala, Naaldwijk, NLD
 181.214.10.157, Server Wala, New Delhi, IND
 195.16.73.113, Server Wala, Oslo, NOR
-138.186.142.58, Server Wala, Panama City, PAN
 179.49.5.80, Server Wala, Quito, ECU
 190.120.230.60, Server Wala, Santiago, Chile
-128.14.222.229, Server Wala, Sao Paulo, BRA
-23.248.160.4, Server Wala, Seoul, KOR
-131.153.77.4, Server Wala, Singapore, SGP
-176.103.62.159, Server Wala, Sofia, BGR
 92.42.110.86, Server Wala, Strasbourg, FRA
 103.59.108.189, Server Wala, Taipei, TWN
 185.135.76.199, Server Wala, Tokyo, JPN
@@ -665,14 +602,12 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 104.206.226.38, Server Wala,, USA
 198.12.88.231, Server Wala,, USA
 50.2.144.135, Server Wala,Dallas, USA
-23.111.138.140, Server Wala,Tampa, USA
 91.219.239.101, ServerAstra(T-Systems Cloud &amp, Budapest, HUN
 195.93.172.63, ServerDale(GBRrtelecom), Kyiv, GBR
 194.87.28.13, SERVERio(Coolhousing), Prague, CZE
 195.133.51.85, SERVERio(Digitalis), Bratislava, SVK
 194.87.11.36, SERVERio(First Colo), Frankfurt, DEU
 166.88.170.20, SERVERio(Hivelocity), NY, USA
-193.47.33.175, ServTech(Dataline), Moscow, RUS
 5.253.189.11, ServTech(Equinix), Amsterdam, NLD
 45.8.157.15, ServTech(Equinix), Atlanta, USA
 172.96.137.11, Shock Hosting(Carrier-1), Dallas, USA
@@ -686,7 +621,6 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 104.225.129.133, Shock Hosting(SBA Edge), Jacksonville, USA
 208.123.119.248, Shock Hosting(Telecom Center), Los Angeles, USA
 144.208.126.12, Shock Hosting(TeleHouse), Staten Island, USA
-46.8.37.36, Siacom(Cloud9), Tbilisi, GEO
 103.214.168.128, SICloud(Colt), Tokyo, JPN
 154.19.185.4, SICloud(Cyxtera), CA, USA
 167.88.48.17, SiteHUB(Hurricane Electric), Fremont, USA
@@ -698,8 +632,6 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 78.157.209.227, SolaDrive(Pulsant Datacenter), Coventry, GBR
 194.58.41.27, SpaceCore (Tornado), Langen, DEU
 80.71.227.205, SpaceCore(Serverius), Amsterdam, NLD
-80.85.242.81, SpaceCore, Frankfurt am Main, DEU
-170.130.210.38, SSDBlaze(ServerHub), Dallas, USA
 185.66.68.100, Support.by(Support.by), Minsk, BLR
 193.105.134.3, Sweden Dedicated(Kista), Stockholm, SWE
 185.211.245.152, TEAM-HOST(CSS MPS RZD), Moscow, RUS
@@ -712,9 +644,7 @@ sin1.as16276.ovh, OVH,Singapore, SGP
 178.32.250.46, ThomasHost, Roubaix, FRA
 92.204.161.101, ThunderVM(Datadock), Strasbourg, FRA
 46.102.174.4, ThunderVM(euNetworks), Amsterdam, NLD
-87.121.45.41, ThunderVM(Iron Mountain), Frankfurt am Main, DEU
 185.65.205.154, ThunderVM(Iron Mountain), London, GBR
-81.17.16.38, ThunderVM(PrivateLayer), Zurich, CHE
 93.170.123.100, Time-Host(Marosnet), Moscow, RUS
 176.223.140.7, Time4VPS, Vilnius, LTU
 31.6.1.243, Torchbyte(NXDATA), Bucharest, ROU
@@ -797,7 +727,6 @@ nrt.lg.v.ps, V.PS, Tokyo, JPN
 149.248.50.81, Vultr, Toronto, CAN
 70.34.242.24, Vultr, Warsaw, POL
 89.28.236.16, Webdock, Copenhagen, DNK
-45.153.48.51, Webdock, Montreal, CAN
 45.145.0.35, WebHOST1(AlexHost), Chisinau, MDA
 77.91.69.144, WebHOST1(Bezeq), Tel Aviv-Yafo, ISR
 185.179.190.38, WebHOST1(DataPro), Moscow, RUS
