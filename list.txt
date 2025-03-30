@@ -20,8 +20,8 @@ syd.as16276.ovh, OVH, Sydney, AUS
 au-mel.speedtest.linode.com, Linode (Akamai), Melbourne, AUS
 speedtest.sydney.linode.com, Linode (Akamai), Sydney, AUS
 108.181.64.80, Psychz.net, Sydney, AUS
-108.61.212.117, vultr, Sydney, AUS
-67.219.110.24, vultr, Melbourne, AUS
+108.61.212.117, Vultr, Sydney, AUS
+67.219.110.24, Vultr, Melbourne, AUS
 146.185.214.47, Gcore, Sydney, AUS
 103.126.137.120, Psychz Networks(Psychz Networks), Sydney, AUS
 203.96.177.151, Shock Hosting(Equinix), Sydney, AUS
@@ -51,7 +51,7 @@ speedtest.sao-paulo.linode.com, Linode (Akamai), São Paulo, BRA
 95.164.4.5, PQ.Hosting, Sao Paulo, BRA
 191.96.156.42, Hosting Now BR(Hosting Now - CWB1), Curitiba, BRA
 128.14.222.229, Server Wala, Sao Paulo, BRA
-216.238.98.118, vultr, Sao Paulo, BRA
+216.238.98.118, Vultr, Sao Paulo, BRA
 speedtest.toronto1.linode.com, Linode (Akamai), Toronto, CAN
 198.57.26.172, GlobalTeleHost, Toronto, CAN
 158.51.120.166, GlobalTeleHost, Montreal, CAN
@@ -70,7 +70,7 @@ speedtest.toronto1.linode.com, Linode (Akamai), Toronto, CAN
 23.191.80.34, Free Range Cloud, Halifax, CAN
 51.222.196.32, IPhoster(OVH), Beauharnois, CAN
 81.19.140.42, 4vps(EXA), Toronto, CAN
-149.248.50.81, vultr, Toronto, CAN
+149.248.50.81, Vultr, Toronto, CAN
 
 179.43.152.140, Legionbox, Zurich, CHE
 45.90.57.21, ITL DC(Infomaniak), Geneva, CHE
@@ -124,7 +124,7 @@ lim.as16276.ovh, OVH, DEU, DEU
 fra.as16276.ovh, OVH, DEU, DEU
 speedtest.frankfurt.linode.com, Linode (Akamai), Frankfurt, DEU
 de-fra-2.speedtest.linode.com, Linode (Akamai), Frankfurt Expansion, DEU
-108.61.210.117, vultr, Frankfurt, DEU
+108.61.210.117, Vultr, Frankfurt, DEU
 185.17.121.239, RoboVPS(Iron Mountain), Frankfurt am Main, DEU
 95.169.186.139, KeyWeb(KeyWeb.Ru), Erfurt, DEU
 185.74.254.165, HOSTLIFE(FirstColo), Frankfurt am Main, DEU
@@ -176,7 +176,7 @@ speedtest.madrid.linode.com, Linode (Akamai), Madrid, ESP
 146.185.239.54, Hyper Hosting(Digital Realty), Madrid, ESP
 194.4.48.22, PQ.Hosting, Madrid, ESP
 172.111.37.166, GlobalTeleHost, Madrid, ESP
-208.76.222.30, vultr, Madrid, ESP
+208.76.222.30, Vultr, Madrid, ESP
 45.129.96.56, GMHost(Infonet), Tallinn, EST
 185.4.74.75, FASTVPS(MayFlower), Johvi, EST
 5.253.176.16, Core Solutions(Telia), Tallinn, EST
@@ -192,7 +192,7 @@ speedtest.madrid.linode.com, Linode (Akamai), Madrid, ESP
 77.221.144.47, LandVPS, Helsinki, FIN
 185.174.137.115, AEZA(Hetzner), Helsinki, FIN
 46.161.0.12, Hyper Hosting(EXA), Aubervilliers, FRA
-45.95.173.2, racknerd, Strasbourg, FRA
+45.95.173.2, Racknerd, Strasbourg, FRA
 rbx.as16276.ovh, OVH, FRA, FRA
 speedtest.paris.linode.com, Linode (Akamai), Paris, FRA
 194.76.37.4, HostiMan(OVH), Roubaix, FRA
@@ -210,17 +210,16 @@ speedtest.paris.linode.com, Linode (Akamai), Paris, FRA
 92.42.110.86, Server Wala, Strasbourg, FRA
 185.231.205.2, PQ.Hosting, Paris, FRA
 139.64.167.166, GlobalTeleHost, Paris, FRA
-108.61.209.127, vultr, Paris, FRA
-
+108.61.209.127, Vultr, Paris, FRA
 130.185.251.6, Alphavps, London, GBR
 eri.as16276.ovh, OVH, England, GBR
 speedtest.london.linode.com, Linode (Akamai), London, GBR
 gb-lon.speedtest.linode.com, Linode (Akamai), London Expansion, GBR
 108.181.67.248, Psychz.net, London, GBR
-108.61.196.101, vultr, London, GBR
-64.176.178.136, vultr, Manchester, GBR
+108.61.196.101, Vultr, London, GBR
+64.176.178.136, Vultr, Manchester, GBR
 89.33.6.66, Iniz.com, Coventry, GBR
-104.194.128.46, cloudzy.com, London, GBR
+104.194.128.46, Cloudzy.com, London, GBR
 5.34.183.173, ITL DC(ITL), Kharkiv, GBR
 185.86.78.77, GMHost(GMHost), Khmelnytskyi, GBR
 195.54.163.164, HyperHost(ITL), Kharkiv, GBR
@@ -295,9 +294,9 @@ speedtest.chennai.linode.com, Linode (Akamai), Chennai, IND
 speedtest.mumbai1.linode.com, Linode (Akamai), Mumbai, IND
 in-bom-2.speedtest.linode.com, Linode (Akamai), Mumbai Expansion, IND
 108.181.61.214, Psychz.net, Mumbai, IND
-65.20.66.100, vultr, Mumbai, IND
-139.84.162.104, vultr, Delhi, IND
-139.84.130.100, vultr, Bangladore, IND
+65.20.66.100, Vultr, Mumbai, IND
+139.84.162.104, Vultr, Delhi, IND
+139.84.130.100, Vultr, Bangladore, IND
 129.227.218.229, HostNamaste(ZenLayer), Mumbai, IND
 108.181.61.250, Psychz Networks(Psychz Networks), Mumbai, IND
 5.188.228.120, Gcore, Mumbai, IND
@@ -312,10 +311,10 @@ in-bom-2.speedtest.linode.com, Linode (Akamai), Mumbai Expansion, IND
 122.10.225.52, Server Wala, Hyderabad, IND
 107.155.47.162, Server Wala, Kolkata, IND
 185.231.207.35, PQ.Hosting, Dublin, IRL
-23.95.225.2, racknerd, Dublin, IRL
+23.95.225.2, Racknerd, Dublin, IRL
 185.165.170.23, FlokiNET, Reykjavik, ISL
 89.221.224.6, PQ.Hosting, Reykjavik, ISL
-64.176.162.16, vultr, Tel Aviv, ISR
+64.176.162.16, Vultr, Tel Aviv, ISR
 146.185.219.124, Gcore, Tel Aviv-Yafo, ISR
 45.150.108.156, BlueVPS(Bezeq International), Tel Aviv-Yafo, ISR
 194.62.42.25, PQ.Hosting, Tel Aviv-Yafo, ISR
@@ -329,8 +328,8 @@ speedtest.osaka.linode.com, Linode (Akamai), Osaka, JPN
 speedtest.tokyo2.linode.com, Linode (Akamai), Tokyo, JPN
 jp-tyo-3.speedtest.linode.com, Linode (Akamai), Tokyo Expansion, JPN
 108.181.73.55, Psychz.net, Tokyo, JPN
-108.61.201.151, vultr, Tokyo, JPN
-64.176.34.94, vultr, Osaka, JPN
+108.61.201.151, Vultr, Tokyo, JPN
+64.176.34.94, Vultr, Osaka, JPN
 92.38.178.249, Gcore, Tokyo, JPN
 104.233.163.179, Raksmart, Tokyo, JPN
 108.181.73.34, Psychz Networks(Psychz Networks), Tokyo, JPN
@@ -347,7 +346,7 @@ jp-tyo-3.speedtest.linode.com, Linode (Akamai), Tokyo Expansion, JPN
 45.136.59.80, Megahost(Megahost), Aktau, KAZ
 31.56.240.15, Megahost(Kazakh Telecom), Astana, KAZ
 108.181.51.92, Psychz.net, Seoul, KOR
-141.164.34.61, vultr, Seoul, KOR
+141.164.34.61, Vultr, Seoul, KOR
 103.140.45.195, Full VPS Server(FullVPS KR1), Seoul, KOR
 108.181.51.124, Psychz Networks(Psychz Networks), Seoul, KOR
 92.38.135.95, Gcore, Seoul, KOR
@@ -373,18 +372,18 @@ jp-tyo-3.speedtest.linode.com, Linode (Akamai), Tokyo Expansion, JPN
 80.66.79.80, Hyper Hosting(IPHost), Chisinau, MDA
 185.181.228.254, IP Host(IPHOST.MD), Chisinau, MDA
 69.67.148.165, Server Wala, Mexico City, MEX
-216.238.66.16, vultr, Mexico City, MEX
+216.238.66.16, Vultr, Mexico City, MEX
 91.132.133.7, PQ.Hosting, Skopje, MKD
 167.88.51.253, SiteHUB(Rack Centre), Lagos, NGA
 
-23.94.101.88, racknerd, Amsterdam, NLD
+23.94.101.88, Racknerd, Amsterdam, NLD
 speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 139.64.166.166, GlobalTeleHost, Amsterdam, NLD
 108.181.59.250, Psychz.net, Amsterdam, NLD
-108.61.198.102, vultr, Amsterdam, NLD
-2.58.56.10, rdp.sh, Amsterdam, NLD
+108.61.198.102, Vultr, Amsterdam, NLD
+2.58.56.10, Rdp.sh, Amsterdam, NLD
 185.53.130.2, Iniz.com, Amsterdam, NLD
-104.194.133.41, cloudzy.com, Amsterdam, NLD
+104.194.133.41, Cloudzy.com, Amsterdam, NLD
 103.214.68.4, extravm.com, Amsterdam, NLD
 2.58.57.56, hybula.net, Amsterdam, NLD
 195.123.217.67, ITL DC(Serverius), Dronten, NLD
@@ -416,7 +415,7 @@ speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 92.38.184.167, Gcore, Amsterdam, NLD
 23.137.249.109, IncogNet(Greenhouse), Naaldwijk, NLD
 146.255.188.143, KVMka(Serverius), Meppel, NLD
-185.197.162.82, ua-hosting.company(Maincubes), Amsterdam, NLD
+185.197.162.82, Ua-hosting.company(Maincubes), Amsterdam, NLD
 185.246.188.50, FlokiNET, Amsterdam, NLD
 89.23.110.134, Z-Tv(Serverius), Meppel, NLD
 109.205.214.58, Kuroit(Iron Mountain AMS1), Haarlem, NLD
@@ -445,7 +444,7 @@ speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 138.186.143.53, Server Wala, Lima, PER
 45.43.50.23, Server Wala, Manila, PHI
 waw.as16276.ovh, OVH, Poland, POL
-45.138.16.112, rdp.sh, Warsaw, POL
+45.138.16.112, Rdp.sh, Warsaw, POL
 86.110.56.52, IPhoster(OVH), Wroclaw, POL
 185.151.245.48, Host4biz(Atman), Warsaw, POL
 82.118.21.150, ITL DC(Artnet), Gdansk, POL
@@ -455,7 +454,7 @@ waw.as16276.ovh, OVH, Poland, POL
 77.91.102.6, PQ.Hosting, Warsaw, POL
 91.207.60.188, XServer(ArtNet), Gdynia, POL
 81.210.88.5, HostGier(Netia MIND), Warsaw, POL
-70.34.242.24, vultr, Warsaw, POL
+70.34.242.24, Vultr, Warsaw, POL
 oza.as16276.ovh, OVH, POL, POL 
 185.231.233.85, HostWebis, Lisbon, PRT
 31.129.22.31, 4vps(Cloudity), Viana do Castelo, PRT
@@ -546,8 +545,8 @@ sgp.as16276.ovh, OVH,Singapore, SGP
 sin.as16276.ovh, OVH,Singapore, SGP
 sg-sin-2.speedtest.linode.com, Linode (Akamai), Singapore Expansion, SGP
 103.126.138.20, Psychz.net, Singapore, SGP
-45.32.100.168, vultr, Singapore, SGP
-167.88.174.123, cloudzy.com, Singapore, SGP
+45.32.100.168, Vultr, Singapore, SGP
+167.88.174.123, Cloudzy.com, Singapore, SGP
 195.123.237.53, ITL DC(Telstra), Singapore, SGP
 194.15.115.80, Hosting International(Equinix), Singapore, SGP
 103.126.139.164, Psychz Networks(Psychz Networks), Singapore, SGP
@@ -576,7 +575,7 @@ speedtest.stockholm.linode.com, Linode (Akamai), Stockholm, SWE
 77.91.84.104, AEZA(Interxion), Stockholm, SWE
 45.155.250.149, VPS2day, Stockholm, SWE
 45.8.147.6, PQ.Hosting, Stockholm, SWE
-70.34.194.86, vultr, Stockholm, SWE
+70.34.194.86, Vultr, Stockholm, SWE
 107.155.27.206, Server Wala, Bangkok, THA
 5.188.168.61, Gcore, Istanbul, TUR
 185.220.59.131, Venois Hosting(Mitues Global Teknolojiler Ltd), Istanbul, TUR
@@ -590,14 +589,14 @@ speedtest.stockholm.linode.com, Linode (Akamai), Stockholm, SWE
 5.44.42.22, 4vps(Etisalat), Fujairah, UAE
 194.105.82.110, Server Wala, Dubai, UAE
 179.27.200.34, Server Wala, Montevideo, URY
-204.13.154.3, racknerd, Los Angeles, USA
-192.210.207.88, racknerd, San Jose, USA
-192.3.253.2, racknerd, Seattle, USA
-198.23.249.100, racknerd, Dallas, USA
-198.23.228.15, racknerd, Chicago, USA
-192.3.81.8, racknerd, New York, USA
-192.3.254.158, racknerd, Ashburn, USA
-107.173.164.160, racknerd, Atlanta, USA
+204.13.154.3, Racknerd, Los Angeles, USA
+192.210.207.88, Racknerd, San Jose, USA
+192.3.253.2, Racknerd, Seattle, USA
+198.23.249.100, Racknerd, Dallas, USA
+198.23.228.15, Racknerd, Chicago, USA
+192.3.81.8, Racknerd, New York, USA
+192.3.254.158, Racknerd, Ashburn, USA
+107.173.164.160, Racknerd, Atlanta, USA
 45.59.101.12, Alphavps, Seattle, USA
 165.140.242.110, Alphavps, New York, USA
 165.140.241.183, Alphavps, Los Angeles, USA
@@ -629,21 +628,21 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 108.181.89.251, Psychz.net, Dallas, USA
 108.181.140.235, Psychz.net, Chicago, USA
 108.181.134.142, Psychz.net, Ashburn, USA
-108.61.193.166, vultr, Atlanta, USA
-107.191.51.12, vultr, Chicago, USA
-108.61.224.175, vultr, Dallas, USA
-208.72.154.76, vultr, Honolulu, USA
-108.61.219.200, vultr, Los Angeles, USA
-104.156.244.232, vultr, Miami, USA
-108.61.149.182, vultr, New Jersey, USA
-108.61.194.105, vultr, Seattle, USA
-142.202.240.153, rdp.sh, Phoenix, USA
-193.26.115.108, rdp.sh, Miami, USA
+108.61.193.166, Vultr, Atlanta, USA
+107.191.51.12, Vultr, Chicago, USA
+108.61.224.175, Vultr, Dallas, USA
+208.72.154.76, Vultr, Honolulu, USA
+108.61.219.200, Vultr, Los Angeles, USA
+104.156.244.232, Vultr, Miami, USA
+108.61.149.182, Vultr, New Jersey, USA
+108.61.194.105, Vultr, Seattle, USA
+142.202.240.153, Rdp.sh, Phoenix, USA
+193.26.115.108, Rdp.sh, Miami, USA
 107.161.163.163, Iniz.com, Piscataway, USA
 107.181.135.135, Iniz.com, Dallas, USA
-172.86.96.153, cloudzy.com, New York, USA
-45.61.129.54, cloudzy.com, Las Vegas, USA
-167.88.160.228, cloudzy.com, Dallas , Hosthatch Texas, USA
+172.86.96.153, Cloudzy.com, New York, USA
+45.61.129.54, Cloudzy.com, Las Vegas, USA
+167.88.160.228, Cloudzy.com, Dallas , Hosthatch Texas, USA
 107.181.187.112, ITL DC(QuadraNet), Los-Angeles, USA
 195.123.233.22, ITL DC(XO Communications), Secaucus, USA
 38.135.104.39, FOXCLOUD(Equinix CH3), Elk Grove Village, USA
@@ -736,7 +735,7 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 212.18.104.31, 4vps(Omnis Network), AZ, USA
 193.203.49.97, XServer(Digital Realty), FL, USA
 208.115.210.58, HostNamaste(Limestone Networks), TX, USA
-176.223.109.97, ua-hosting.company(Iron Mountain Data Centers), NJ, USA
+176.223.109.97, Ua-hosting.company(Iron Mountain Data Centers), NJ, USA
 2.58.201.224, TerraNode, CA, USA
 38.224.19.101, SadeemRDP, NY, USA
 45.134.111.66, Kuroit, CA, USA
@@ -760,11 +759,11 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 216.230.228.150, CharityHost(Oplink.net), Spring, USA
 167.88.48.17, SiteHUB(Hurricane Electric), Fremont, USA
 198.37.127.161, DediRock(DediRock LA2), Los Angeles, USA
-104.156.230.107, vultr, Sillicon Valley, USA
-64.176.2.7, vultr, Santiago, USA
+104.156.230.107, Vultr, Sillicon Valley, USA
+64.176.2.7, Vultr, Santiago, USA
 45.122.220.101, Server Wala, Ho Chi Minh, VNM
 108.181.120.247, Psychz.net, Johannesburg, ZAF
-139.84.226.78, vultr, Johanesburg, ZAF
+139.84.226.78, Vultr, Johanesburg, ZAF
 5.188.133.207, Gcore, Johannesburg, ZAF
 108.181.120.231, Psychz Networks(Psychz Networks), Johannesburg, ZAF
 169.239.128.25, Zappie Host, Johannesburg, ZAF
