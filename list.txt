@@ -777,7 +777,7 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 178.33.193.1, OVH, Paris, FRA
 37.139.0.22, Host Europe, Frankfurt, DEU
 185.220.101.1, Lumen, Amsterdam, NLD
-146.0.32.1, Amazon, Frankfurt, DEU
+146.0.32.1, AWS, Frankfurt, DEU
 165.227.220.1, DigitalOcean, Toronto, CAN
 185.132.179.1, G-Core Labs, Luxembourg, LUX
 216.218.185.1, FDCservers, Chicago, USA
@@ -786,5 +786,33 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 192.151.137.1, Fastly, San Francisco, USA
 198.27.83.12, OVH, Montreal, CAN
 8.134.32.1, Voxility, Bucharest, ROU
-205.251.198.1, Amazon, Seattle, USA
+205.251.198.1, AWS, Seattle, USA
 139.59.87.1, DigitalOcean, San Francisco, USA
+3.108.0.0, AWS, ap-south-1, IND
+96.0.60.0, AWS, ap-south-1-ccu-1, IND
+96.0.80.0, AWS, ap-southeast-2-akl-1, NZL
+15.220.232.0, AWS, ap-south-1-ccu-2, IND
+96.0.144.0, AWS, ap-southeast-1-mnl-1, PHL
+120.52.22.96, AWS, GLOBAL,
+15.220.192.0, AWS, ap-southeast-1-bkk-1, THA
+15.220.48.0, AWS, eu-central-1-waw-1, POL
+35.180.0.0, AWS, eu-west-3, IRL
+96.0.32.0, AWS, eu-north-1-cph-1, DNK
+51.85.0.0, AWS, il-central-1, ISR
+15.181.247.0, AWS, us-east-1-atl-1, USA
+96.0.102.0, AWS, us-east-1-bos-1, USA
+15.220.146.0, AWS, me-south-1-mct-1, SAU
+15.181.241.0, AWS, us-east-1-dfw-1, USA
+15.181.232.0, AWS, us-east-1-iah-1, USA
+15.220.222.0, AWS, us-east-1-mci-1, USA
+15.220.196.0, AWS, us-east-1-mia-1, USA
+155.146.96.0, AWS, us-east-1-wl1-dfw-wlz-1, USA
+96.0.131.0, AWS, us-east-1-scl-1, CHL
+52.94.76.0, AWS, us-west-2, USA
+15.220.204.0, AWS, us-west-2-den-1, USA
+15.220.252.0, AWS, us-west-2-las-1, USA
+96.0.110.0, AWS, us-west-2-hnl-1, USA
+15.220.202.0, AWS, us-west-2-pdx-1, USA
+15.220.207.0, AWS, us-west-2-sea-1, USA
+15.220.32.0, AWS, us-west-2-phx-1, USA
+
