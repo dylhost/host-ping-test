@@ -1,50 +1,108 @@
-208.67.222.222,OpenDNS,San Francisco,USA
-199.249.112.1,Google,Mountain View,USA
-198.27.83.12,OVH,Montreal,CAN
-195.110.34.1,Cogent,Paris,FRA
-192.151.137.1,Fastly,San Francisco,USA
-205.251.198.1,Amazon,Seattle,USA
-185.220.101.1,Lumen,Amsterdam,NLD
-198.144.191.1,ReliableSite,New York,USA
-38.134.32.1,Voxility,Bucharest,ROU
-185.145.13.1,InterServer,Secaucus,USA
-192.69.65.1,GNet,New York,USA
-216.218.185.1,FDCservers,Chicago,USA
-178.33.193.1,OVH,Paris,FRA
-192.145.48.1,Rebellion,London,GBR
-139.59.87.1,DigitalOcean,San Francisco,USA
-91.227.68.1,joyent,Frankfurt,DEU
-165.227.220.1,DigitalOcean,Toronto,CAN
-185.132.179.1,G-Core Labs,Luxembourg,LUX
-37.139.0.22,Host Europe,Frankfurt,DEU
-198.144.215.1,ReliableSite,Los Angeles,USAA
-146.0.32.1,Amazon,Frankfurt,DEU
-209.126.120.1,Voxility,Dallas,USA
-192.254.112.1,HostGator,Houston,USA
-95.181.176.1,HostEurope,Neumünster,DEU
-185.195.61.1,M247,Manchester,GBR
-108.61.179.1,DigitalOcean,Frankfurt,DEU
-204.79.197.1,Amazon,Dallas,USA
-172.93.0.1,NetActuate,Dallas,USA
-102.129.168.1,A2 Hosting,Ann Arbor,USA
-185.220.101.100,Lumen,Amsterdam,NLD
-192.227.180.1,ColoCrossing,Buffalo,USA
-85.214.200.1,1&1 IONOS,Karlsruhe,DEU
-185.220.101.101,Lumen,Amsterdam,NLD
-185.244.214.1,Objetivo,Santiago,CHL
-185.116.60.1,Bitfury,Amsterdam,NLD
-145.239.236.1,Online.net,Paris,FRA
-185.210.26.1,EDIS,Vienna,AUT
-167.160.64.1,EdgeCast,San Francisco,USA
-192.241.123.1,DigitalOcean,San Francisco,USA
-185.241.246.1,G-Core Labs,Luxembourg,LUX
-185.94.76.1,PlanetHoster,Montreal,CAN
-206.72.203.1,Cogent,Atlanta,USA
-165.227.104.1,DigitalOcean,Toronto,CAN
-198.20.122.1,VPLS,San Jose,USA
-162.211.0.1,TMDHosting,Dallas,USA
-91.219.237.1,ProServe,Moscow,RUS
-94.247.182.1,Simplix,Paris,FRA
-185.184.158.1,Datacamp,USA
-167.71.40.1,DigitalOcean,London,GBR
-185.88.152.1,FLN,Bucharest,ROU
+IP Address, Hosting Provider, City, Country
+120.52.22.96, AMAZON, GLOBAL, 
+15.103.0.0, AMAZON, af-south-1, ZAF
+96.0.40.0, AMAZON, af-south-1-los-1, ZAF
+18.99.176.0, AMAZON, ap-east-1, 
+15.190.244.0, AMAZON, ap-east-2, 
+15.221.34.0, AMAZON, ap-northeast-1, JPN
+15.220.80.0, AMAZON, ap-northeast-1-tpe-1, TWN
+3.5.140.0, AMAZON, ap-northeast-2, KOR
+104.255.59.114, AMAZON, ap-northeast-3, JPN
+3.108.0.0, AMAZON, ap-south-1, IND
+96.0.60.0, AMAZON, ap-south-1-ccu-1, IND
+15.220.232.0, AMAZON, ap-south-1-ccu-2, IND
+15.220.136.0, AMAZON, ap-south-1-del-1, IND
+15.220.216.0, AMAZON, ap-south-1-del-2, IND
+98.131.0.0, AMAZON, ap-south-2, IND
+150.222.78.0, AMAZON, ap-southeast-1, SGP
+15.220.192.0, AMAZON, ap-southeast-1-bkk-1, THA
+96.0.144.0, AMAZON, ap-southeast-1-mnl-1, PHL
+96.0.112.0, AMAZON, ap-southeast-1-sggov-sin-1a, SGP
+96.0.120.0, AMAZON, ap-southeast-1-sggov-sin-1b, SGP
+52.95.36.0, AMAZON, ap-southeast-2, AUS
+96.0.80.0, AMAZON, ap-southeast-2-akl-1, NZL
+96.0.0.0, AMAZON, ap-southeast-2-per-1, AUS
+104.255.59.104, AMAZON, ap-southeast-3, AUS
+13.248.67.0, AMAZON, ap-southeast-4, IND
+15.190.32.0, AMAZON, ap-southeast-5, SGP
+13.248.79.0, AMAZON, ap-southeast-6, AUS
+3.5.60.0, AMAZON, ap-southeast-7, AUS
+15.230.110.0, AMAZON, ca-central-1, CAN
+15.177.100.0, AMAZON, ca-west-1, CAN
+54.222.88.0, AMAZON, cn-north-1, CHN
+52.82.169.16, AMAZON, cn-northwest-1, CHN
+15.230.15.29, AMAZON, eu-central-1, DEU
+15.220.152.0, AMAZON, eu-central-1-ham-1, DEU
+15.220.48.0, AMAZON, eu-central-1-waw-1, POL
+15.145.16.0, AMAZON, eu-central-1-wl1-ber-wlz-1, DEU
+15.145.0.0, AMAZON, eu-central-1-wl1-dtm-wlz-1, DEU
+15.145.2.0, AMAZON, eu-central-1-wl1-muc-wlz-1, DEU
+51.34.0.0, AMAZON, eu-central-2, DEU
+52.46.220.0, AMAZON, eu-north-1, NOR
+96.0.32.0, AMAZON, eu-north-1-cph-1, DNK
+15.220.168.0, AMAZON, eu-north-1-hel-1, FIN
+52.95.224.0, AMAZON, eu-south-1, ESP
+18.96.192.0, AMAZON, eu-south-2, ESP
+3.4.12.4, AMAZON, eu-west-1, GBR
+52.93.153.170, AMAZON, eu-west-2, GBR
+15.145.20.0, AMAZON, eu-west-2-wl2-man-wlz-1, GBR
+35.180.0.0, AMAZON, eu-west-3, IRL
+51.0.16.0, AMAZON, eusc-de-east-1, DEU
+51.85.0.0, AMAZON, il-central-1, ISR
+15.230.177.0, AMAZON, me-central-1, ARE
+15.185.0.0, AMAZON, me-south-1, SAU
+15.220.146.0, AMAZON, me-south-1-mct-1, SAU
+51.168.0.0, AMAZON, me-west-1, ARE
+150.222.53.160, AMAZON, mx-central-1, MEX
+64.252.81.0, AMAZON, sa-east-1, BRA
+15.230.221.0, AMAZON, us-east-1, USA
+15.181.247.0, AMAZON, us-east-1-atl-1, USA
+16.56.0.0, AMAZON, us-east-1-atl-2, USA
+96.0.102.0, AMAZON, us-east-1-bos-1, USA
+15.220.120.0, AMAZON, us-east-1-bue-1, ARG
+15.181.176.0, AMAZON, us-east-1-chi-1, USA
+16.56.128.0, AMAZON, us-east-1-chi-2, USA
+15.181.241.0, AMAZON, us-east-1-dfw-1, USA
+15.181.232.0, AMAZON, us-east-1-iah-1, USA
+18.89.128.0, AMAZON, us-east-1-iah-2, USA
+96.0.16.0, AMAZON, us-east-1-lim-1, PER
+15.220.222.0, AMAZON, us-east-1-mci-1, USA
+15.220.196.0, AMAZON, us-east-1-mia-1, USA
+161.193.0.0, AMAZON, us-east-1-mia-2, USA
+15.181.48.0, AMAZON, us-east-1-msp-1, USA
+15.181.160.0, AMAZON, us-east-1-nyc-1, USA
+15.181.144.0, AMAZON, us-east-1-phl-1, USA
+15.220.184.0, AMAZON, us-east-1-qro-1, MEX
+96.0.131.0, AMAZON, us-east-1-scl-1, CHL
+155.146.48.0, AMAZON, us-east-1-wl1-atl-wlz-1, USA
+139.56.28.0, AMAZON, us-east-1-wl1-bna-wlz-1, USA
+155.146.0.0, AMAZON, us-east-1-wl1-bos-wlz-1, USA
+155.146.176.0, AMAZON, us-east-1-wl1-chi-wlz-1, USA
+155.146.208.0, AMAZON, us-east-1-wl1-clt-wlz-1, USA
+155.146.96.0, AMAZON, us-east-1-wl1-dfw-wlz-1, USA
+161.188.16.0, AMAZON, us-east-1-wl1-dtw-wlz-1, USA
+155.146.240.0, AMAZON, us-east-1-wl1-iah-wlz-1, USA
+155.146.80.0, AMAZON, us-east-1-wl1-mia-wlz-1, USA
+155.146.224.0, AMAZON, us-east-1-wl1-msp-wlz-1, USA
+155.146.64.0, AMAZON, us-east-1-wl1-nyc-wlz-1, USA
+155.146.192.0, AMAZON, us-east-1-wl1-tpa-wlz-1, USA
+161.188.127.0, AMAZON, us-east-1-wl1-was-wlz-1, USA
+15.230.39.60, AMAZON, us-east-2, USA
+35.71.115.0, AMAZON, us-gov-east-1, USA
+52.119.208.0, AMAZON, us-gov-west-1, USA
+52.93.178.234, AMAZON, us-west-1, USA
+52.94.76.0, AMAZON, us-west-2, USA
+15.220.204.0, AMAZON, us-west-2-den-1, USA
+96.0.110.0, AMAZON, us-west-2-hnl-1, USA
+15.220.252.0, AMAZON, us-west-2-las-1, USA
+15.220.208.128, AMAZON, us-west-2-las-1b, USA
+70.224.192.0, AMAZON, us-west-2-lax-1, USA
+15.220.202.0, AMAZON, us-west-2-pdx-1, USA
+15.220.32.0, AMAZON, us-west-2-phx-1, USA
+15.220.207.0, AMAZON, us-west-2-sea-1, USA
+155.146.144.0, AMAZON, us-west-2-wl1-den-wlz-1, USA
+155.146.112.0, AMAZON, us-west-2-wl1-las-wlz-1, USA
+139.56.32.0, AMAZON, us-west-2-wl1-lax-wlz-1, USA
+139.56.16.0, AMAZON, us-west-2-wl1-phx-wlz-1, USA
+155.146.128.0, AMAZON, us-west-2-wl1-sea-wlz-1, USA
+155.146.16.0, AMAZON, us-west-2-wl1-sfo-wlz-1, USA 
