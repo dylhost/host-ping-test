@@ -769,3 +769,22 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 169.239.128.25, Zappie Host, Johannesburg, ZAF
 102.222.22.159, Rackzar(African Data Centres), Cape Town, ZAF
 102.208.216.166, Virtarix(Xneelo), Johannesburg, ZAF
+91.227.68.1, joyent, Frankfurt, DEU
+192.145.48.1, Rebellion, London, GBR
+195.110.34.1, Cogent, Paris, FRA
+185.145.13.1, InterServer, Secaucus, USA
+104.244.42.1, Cloudflare, Chicago, USA
+178.33.193.1, OVH, Paris, FRA
+37.139.0.22, Host Europe, Frankfurt, DEU
+185.220.101.1, Lumen, Amsterdam, NLD
+146.0.32.1, Amazon, Frankfurt, DEU
+165.227.220.1, DigitalOcean, Toronto, CAN
+185.132.179.1, G-Core Labs, Luxembourg, LUX
+216.218.185.1, FDCservers, Chicago, USA
+192.69.65.1, GNet, New York, USA
+198.144.191.1, ReliableSite, New York, USA
+192.151.137.1, Fastly, San Francisco, USA
+198.27.83.12, OVH, Montreal, CAN
+8.134.32.1, Voxility, Bucharest, ROU
+205.251.198.1, Amazon, Seattle, USA
+139.59.87.1, DigitalOcean, San Francisco, USA
