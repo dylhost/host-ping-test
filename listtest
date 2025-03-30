@@ -2,7 +2,6 @@
 199.249.112.1,Google,Mountain View,USA
 198.27.83.12,OVH,Montreal,CAN
 195.110.34.1,Cogent,Paris,FRA
-104.16.0.1,Cloudflare,Los Angeles,USA
 192.151.137.1,Fastly,San Francisco,USA
 205.251.198.1,Amazon,Seattle,USA
 185.220.101.1,Lumen,Amsterdam,NLD
@@ -10,9 +9,7 @@
 38.134.32.1,Voxility,Bucharest,ROU
 185.145.13.1,InterServer,Secaucus,USA
 192.69.65.1,GNet,New York,USA
-104.22.14.1,Cloudflare,London,GBR
 216.218.185.1,FDCservers,Chicago,USA
-188.114.97.1,Cloudflare,Amsterdam,NLD
 178.33.193.1,OVH,Paris,FRA
 192.145.48.1,Rebellion,London,GBR
 139.59.87.1,DigitalOcean,San Francisco,USA
@@ -20,8 +17,7 @@
 165.227.220.1,DigitalOcean,Toronto,CAN
 185.132.179.1,G-Core Labs,Luxembourg,LUX
 37.139.0.22,Host Europe,Frankfurt,DEU
-198.144.215.1,ReliableSite,Los Angeles,USA
-104.244.42.1,Cloudflare,Chicago,USA
+198.144.215.1,ReliableSite,Los Angeles,USAA
 146.0.32.1,Amazon,Frankfurt,DEU
 209.126.120.1,Voxility,Dallas,USA
 192.254.112.1,HostGator,Houston,USA
@@ -31,13 +27,10 @@
 204.79.197.1,Amazon,Dallas,USA
 172.93.0.1,NetActuate,Dallas,USA
 102.129.168.1,A2 Hosting,Ann Arbor,USA
-104.16.53.1,Cloudflare,Dallas,USA
-104.18.211.1,Cloudflare,San Francisco,USA
 185.220.101.100,Lumen,Amsterdam,NLD
 192.227.180.1,ColoCrossing,Buffalo,USA
 85.214.200.1,1&1 IONOS,Karlsruhe,DEU
 185.220.101.101,Lumen,Amsterdam,NLD
-1.1.1.1,Cloudflare,Sydney,AUS
 185.244.214.1,Objetivo,Santiago,CHL
 185.116.60.1,Bitfury,Amsterdam,NLD
 145.239.236.1,Online.net,Paris,FRA
