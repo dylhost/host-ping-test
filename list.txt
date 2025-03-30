@@ -815,6 +815,18 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 15.220.204.0, AWS, us-west-2-den-1, USA
 15.220.252.0, AWS, us-west-2-las-1, USA
 96.0.110.0, AWS, us-west-2-hnl-1, USA
+ams.lg.v.ps, V.PS, Amsterdam
+dus.lg.v.ps, V.PS, Düsseldorf, DEU
+fra.lg.v.ps, V.PS, Frankfurt, DEU
+kix.lg.v.ps, V.PS, Osaka, JPN
+lon.lg.v.ps, V.PS, London, GBR
+nrt.lg.v.ps, V.PS, Tokyo, JPN
+nyc.lg.v.ps, V.PS, New York, USA
+sea.lg.v.ps, V.PS, Seattle, USA
+sea2.lg.v.ps, V.PS, Seattle2, USA
+sjc.lg.v.ps, V.PS, San Jose, USA
+syd.lg.v.ps, V.PS, Sydney, AUS
+tll.lg.v.ps, V.PS, Tallinn, EST
 15.220.202.0, AWS, us-west-2-pdx-1, USA
 15.220.207.0, AWS, us-west-2-sea-1, USA
 15.220.32.0, AWS, us-west-2-phx-1, USA
