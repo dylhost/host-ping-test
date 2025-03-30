@@ -1,71 +1,19 @@
-192.5.56.10, Hurricane Electric, Fremont, USA
-198.51.100.1, Telia, Stockholm, SWE
-195.110.34.1, Cogent, Paris, FRA
-206.223.115.100, NTT, Dallas, USA
-204.101.1.2, GTT, Seattle, USA
-208.67.222.222, OpenDNS, San Francisco, USA
-193.205.186.1, Tinet, Frankfurt, DEU
-192.111.148.1, Hibernia Networks, New York, USA
-185.1.6.1, VPLS, Amsterdam, NLD
-198.27.83.12, OVH, Montreal, CAN
-192.0.2.1, Example, London, GBR
-185.220.101.1, Lumen, Amsterdam, NLD
-185.34.232.1, INAP, Dallas, USA
-94.199.184.1, Vocus, Sydney, AUS
-192.151.137.1, Fastly, San Francisco, USA
-167.114.1.1, OVH, Beauharnois, CAN
-185.107.232.1, M247, Manchester, GBR
-198.144.191.1, ReliableSite, New York, USA
-103.86.96.1, QuadraNet, Los Angeles, USA
-205.251.198.1, Amazon, Seattle, USA
-199.249.112.1, Google, Mountain View, USA
-165.227.0.1, DigitalOcean, New York, USA
-188.166.0.1, DigitalOcean, Singapore, SGP
-37.139.0.1, Host Europe, Frankfurt, DEU
-185.189.168.1, Pulsant, London, GBR
-104.16.0.1, Cloudflare, Los Angeles, USA
-45.32.0.1, Linode, Newark, USA
-185.145.13.1, InterServer, Secaucus, USA
-38.134.32.1, Voxility, Bucharest, ROU
-45.12.252.1, Kiwix, Colmar, FRA
-192.174.64.1, NTT, Chicago, USA
-185.201.170.1, UpCloud, Frankfurt, DEU
-136.144.260.1, A2 Hosting, Ann Arbor, USA
-103.224.252.1, Digital Pacific, Sydney, AUS
-192.69.65.1, GNet, New York, USA
-199.204.173.1, Highwinds, Dallas, USA
-192.121.93.1, Limestone Networks, Dallas, USA
-49.248.72.1, Hivelocity, Tampa, USA
-173.192.0.1, InMotion Hosting, Los Angeles, USA
-185.220.101.100, Lumen, Amsterdam, NLD
-192.81.236.1, Hivelocity, Tampa, USA
-198.32.100.1, KeyInfo, San Jose, USA
-45.77.0.1, Choopa, Los Angeles, USA
-216.218.185.1, FDCservers, Chicago, USA
-85.214.187.1, 1&1 IONOS, Karlsruhe, DEU
-185.236.101.1, A2 Hosting, London, GBR
-191.236.72.1, HostDime, Orlando, USA
-178.33.193.1, OVH, Paris, FRA
-192.145.48.1, Rebellion, London, GBR
 91.227.68.1, joyent, Frankfurt, DEU
-2a03:b0c0:1:d0::1, DigitalOcean, Amsterdam, NLD
-192.146.249.1, UnitedLayer, San Francisco, USA
-208.94.60.1, SoftLayer, Dallas, USA
-139.59.0.1, DigitalOcean, Singapore, SGP
-104.22.14.1, Cloudflare, London, GBR
-213.186.33.1, OVH, Roubaix, FRA
-131.153.25.1, Microsoft, Redmond, USA
-37.59.0.1, OVH, Paris, FRA
+192.145.48.1, Rebellion, London, GBR
+195.110.34.1, Cogent, Paris, FRA
+185.145.13.1, InterServer, Secaucus, USA
+104.244.42.1, Cloudflare, Chicago, USA
+178.33.193.1, OVH, Paris, FRA
+37.139.0.22, Host Europe, Frankfurt, DEU
+185.220.101.1, Lumen, Amsterdam, NLD
+146.0.32.1, Amazon, Frankfurt, DEU
 165.227.220.1, DigitalOcean, Toronto, CAN
 185.132.179.1, G-Core Labs, Luxembourg, LUX
-37.139.0.22, Host Europe, Frankfurt, DEU
-173.237.0.1, Rackspace, Dallas, USA
-192.138.221.1, GTT, Dallas, USA
+216.218.185.1, FDCservers, Chicago, USA
+192.69.65.1, GNet, New York, USA
+198.144.191.1, ReliableSite, New York, USA
+192.151.137.1, Fastly, San Francisco, USA
+198.27.83.12, OVH, Montreal, CAN
+8.134.32.1, Voxility, Bucharest, ROU
+205.251.198.1, Amazon, Seattle, USA
 139.59.87.1, DigitalOcean, San Francisco, USA
-188.114.97.1, Cloudflare, Amsterdam, NLD
-192.198.81.1, Twilio, San Francisco, USA
-104.244.42.1, Cloudflare, Chicago, USA
-95.216.45.1, Hetzner, Falkenstein, DEU
-185.170.204.1, A2 Hosting, Chicago, USA
-146.0.32.1, Amazon, Frankfurt, DEU
-151.80.240.1, OVH, Frankfurt, DEU
