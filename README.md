@@ -32,7 +32,6 @@ Test all SGP hosts
 ```
 curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/pinglist.sh  | bash -s -- -c SGP
 ```
-```
 
 Sort by country code
 ```
