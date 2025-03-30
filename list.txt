@@ -465,7 +465,6 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 194.38.20.223, NTUP(UNIT-DC), Dnipro, GBR
 194.58.33.10, NuxtCloud, Frankfurt am Main, DEU
 194.226.139.73, OnlineVDS(Marosnet), Moscow, RUS
-de1.as16276.ovh, OVH, DEU, DEU
 rbx.as16276.ovh, OVH, FRA, FRA
 198.27.83.12, OVH, Montreal, CAN
 178.33.193.1, OVH, Paris, FRA
