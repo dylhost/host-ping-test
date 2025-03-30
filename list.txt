@@ -1,8 +1,21 @@
 185.228.134.214, Cyxym, Sokhumi, Abhazia
 190.103.176.48, Server Wala, Buenos Aires, ARG
 213.159.76.8, PQ.Hosting, Abovyan, ARM
-194.29.100.26, HostHatch (Equinix TY8), Sydney, AUS
-syd1.as16276.ovh, OVH, Sydney, AUS
+lg.ams.hosthatch.com, Hosthatch (Equinix AM3), Amsterdam, NLD
+lg.chi.hosthatch.com, Hosthatch (CoreSite CH2), Chicago, USA
+lg.hkg.hosthatch.com, Hosthatch (Equinix HK1), Hong Kong, HKG
+lg.lon.hosthatch.com, Hosthatch (Iron Mountain LON01), London, GBR
+lg.lax.hosthatch.com, Hosthatch (Telecom Center LA), Los Angeles, USA
+lg.ny.hosthatch.com, Hosthatch (Evocative EWR1), New York, USA
+lg.osl.hosthatch.com, Hosthatch (Blix BDC), Oslo, NOR
+lg.sgp.hosthatch.com, Hosthatch (Racks Central), SGP
+lg.sto.hosthatch.com, Hosthatch (Interxion STO4), Stockholm, SWE
+lg.syd.hosthatch.com, Hosthatch (Equinix SY4), Sydney, AUS
+lg.tok.hosthatch.com, Hosthatch (Equinix TY8), Tokyo, JPN
+lg.vie.hosthatch.com, Hosthatch (Interxion VIE), Vienna, AUT
+lg.zrh.hosthatch.com, Hosthatch (Interxion ZUR1), Zurich, CHE
+lg.syd.hosthatch.com, HostHatch (Equinix SY4), Sydney, AUS
+lg.vie.hosthatch.com, HostHatch (Interxion VIE), Vienna, AUT
 syd.as16276.ovh, OVH, Sydney, AUS
 au-mel.speedtest.linode.com, Linode (Akamai), Melbourne, AUS
 speedtest.sydney.linode.com, Linode (Akamai), Sydney, AUS
@@ -12,8 +25,6 @@ speedtest.sydney.linode.com, Linode (Akamai), Sydney, AUS
 146.185.214.47, Gcore, Sydney, AUS
 103.126.137.120, Psychz Networks(Psychz Networks), Sydney, AUS
 203.96.177.151, Shock Hosting(Equinix), Sydney, AUS
-185.175.59.70, HostHatch (Interxion VIE), Vienna, AUT
-45.91.94.146, HostHatch(Interxion), Vienna, AUT
 195.144.21.250, BlackHOST, Vienna, AUT
 46.102.157.175, Alwyzon(InterXion), Santa Clara, AUT
 212.69.167.70, Hosteroid(ODC21), Vienna, AUT
@@ -60,10 +71,10 @@ speedtest.toronto1.linode.com, Linode (Akamai), Toronto, CAN
 51.222.196.32, IPhoster(OVH), Beauharnois, CAN
 81.19.140.42, 4vps(EXA), Toronto, CAN
 149.248.50.81, vultr, Toronto, CAN
-45.91.92.92, HostHatch (Interxion ZUR1), Zurich, CHE
+
 179.43.152.140, Legionbox, Zurich, CHE
 45.90.57.21, ITL DC(Infomaniak), Geneva, CHE
-45.91.92.167, HostHatch, Zurich, CHE
+
 179.43.128.17, CloudArion, Zurich, CHE
 185.32.124.192, FSIT AG(FSIT AG), Zug, CHE
 79.142.69.29, AltusHost, Zurich, CHE
@@ -200,7 +211,7 @@ speedtest.paris.linode.com, Linode (Akamai), Paris, FRA
 185.231.205.2, PQ.Hosting, Paris, FRA
 139.64.167.166, GlobalTeleHost, Paris, FRA
 108.61.209.127, vultr, Paris, FRA
-150.107.201.10, HostHatch (Iron Mountain LON01), London, GBR
+
 130.185.251.6, Alphavps, London, GBR
 eri.as16276.ovh, OVH, England, GBR
 speedtest.london.linode.com, Linode (Akamai), London, GBR
@@ -221,7 +232,7 @@ gb-lon.speedtest.linode.com, Linode (Akamai), London Expansion, GBR
 195.16.88.166, HOSTLIFE(Hostlife UA), Kyiv, GBR
 194.38.20.223, NTUP(UNIT-DC), Dnipro, GBR
 45.137.155.46, PQ.Hosting, Kyiv, GBR
-45.91.93.241, HostHatch, London, GBR
+
 109.169.10.169, hostworld Limited, Maidenhead, GBR
 78.157.209.227, SolaDrive(Pulsant Datacenter), Coventry, GBR
 188.64.185.72, GBR Host4u, Maidenhead, GBR
@@ -260,7 +271,7 @@ gb-lon.speedtest.linode.com, Linode (Akamai), London Expansion, GBR
 46.8.37.36, Siacom(Cloud9), Tbilisi, GEO
 185.242.84.5, PQ.Hosting, Thessaloniki, GRC
 185.39.207.86, 4vps, Thessaloniki, GRC
-103.214.22.76, HostHatch (Equinix HK1), HKG, HKG
+
 194.156.98.5, PQ.Hosting, HKG, HKG
 107.148.130.61, Raksmart, HKG, HKG
 103.253.40.148, BlueVPS(Tele-Asia), HKG, HKG
@@ -313,7 +324,7 @@ speedtest.milan.linode.com, Linode (Akamai), Milan, ITA
 92.223.79.250, Gcore, Milan, ITA
 185.248.144.102, PQ.Hosting, Rome, ITA
 185.247.184.112, 4vps(Irideos), Milan, ITA
-212.52.0.11, HostHatch (Equinix TY8), Tokyo, JPN
+
 speedtest.osaka.linode.com, Linode (Akamai), Osaka, JPN
 speedtest.tokyo2.linode.com, Linode (Akamai), Tokyo, JPN
 jp-tyo-3.speedtest.linode.com, Linode (Akamai), Tokyo Expansion, JPN
@@ -365,7 +376,7 @@ jp-tyo-3.speedtest.linode.com, Linode (Akamai), Tokyo Expansion, JPN
 216.238.66.16, vultr, Mexico City, MEX
 91.132.133.7, PQ.Hosting, Skopje, MKD
 167.88.51.253, SiteHUB(Rack Centre), Lagos, NGA
-83.138.53.15, HostHatch (Equinix AM3), Amsterdam, NLD
+
 23.94.101.88, racknerd, Amsterdam, NLD
 speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 139.64.166.166, GlobalTeleHost, Amsterdam, NLD
@@ -391,7 +402,7 @@ speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 193.38.54.15, PQ.Hosting, Meppel, NLD
 5.253.189.11, ServTech(Equinix), Amsterdam, NLD
 185.43.222.150, HOSTLIFE(Serverius), Meppel, NLD
-31.187.64.131, HostHatch(Equinix AM5), Amsterdam, NLD
+
 80.89.228.67, Zomro(NovoServe), Delft, NLD
 185.142.239.130, BlackHOST, Amsterdam, NLD
 195.246.110.27, WebHOST1(Serverius), Meppel, NLD
@@ -425,8 +436,6 @@ speedtest.amsterdam.linode.com, Linode (Akamai), Amsterdam, NLD
 82.115.5.12, Veesp, Amsterdam, NLD
 80.71.227.205, SpaceCore(Serverius), Amsterdam, NLD
 103.90.72.204, FirstVDS(euNetworks), Amsterdam, NLD
-185.175.56.60, HostHatch (Blix BDC), Oslo, NOR
-185.175.56.105, HostHatch(IP-Only Norway), Oslo, NOR
 206.83.41.78, Free Range Cloud, Sandefjord, NOR
 95.164.84.33, PQ.Hosting, Oslo, NOR
 195.16.73.113, Server Wala, Oslo, NOR
@@ -547,7 +556,6 @@ sg-sin-2.speedtest.linode.com, Linode (Akamai), Singapore Expansion, SGP
 139.99.30.245, SakuraServer(SakuraServer),Singapore, SGP
 23.27.101.2, Kuroit, Singapore, SGP
 131.153.77.4, Server Wala, Singapore, SGP
-103.167.150.90, HostHatch (Racks Central),Singapore, SGP 
 194.146.57.35, mCloud(CETIN), Belgrade, SRB
 185.119.90.31, Unlimited.RS(Telenor), Belgrade, SRB
 141.11.5.41, Hosting022(Host Media), Indjija, SRB
@@ -557,11 +565,9 @@ sg-sin-2.speedtest.linode.com, Linode (Akamai), Singapore Expansion, SGP
 95.131.202.72, Hosteroid(vNET), Bratislava, SVK
 195.133.51.85, SERVERio(Digitalis), Bratislava, SVK
 91.132.134.13, PQ.Hosting, Ljubljana, SVN
-31.220.15.232, HostHatch (Interxion STO4), Stockholm, SWE
 speedtest.stockholm.linode.com, Linode (Akamai), Stockholm, SWE
 94.140.125.106, YourServer, Goteborg, SWE
 46.246.97.189, BlueVPS(Portlane), Hagersten, SWE
-153.92.126.212, HostHatch(GleSYS), Stockholm, SWE
 193.105.134.3, Sweden Dedicated(Kista), Stockholm, SWE
 128.127.105.10, AltusHost, Stockholm, SWE
 79.141.174.17, HostZealot, Stockholm, SWE
@@ -584,8 +590,6 @@ speedtest.stockholm.linode.com, Linode (Akamai), Stockholm, SWE
 5.44.42.22, 4vps(Etisalat), Fujairah, UAE
 194.105.82.110, Server Wala, Dubai, UAE
 179.27.200.34, Server Wala, Montevideo, URY
-185.197.30.30, HostHatch (Telecom Center LA), Los Angeles, US 
-193.29.62.40, HostHatch (CoreSite CH2), Chicago, US  
 204.13.154.3, racknerd, Los Angeles, USA
 192.210.207.88, racknerd, San Jose, USA
 192.3.253.2, racknerd, Seattle, USA
@@ -639,7 +643,7 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 107.181.135.135, Iniz.com, Dallas, USA
 172.86.96.153, cloudzy.com, New York, USA
 45.61.129.54, cloudzy.com, Las Vegas, USA
-167.88.160.228, cloudzy.com, Dallas / Texas, USA
+167.88.160.228, cloudzy.com, Dallas , Hosthatch Texas, USA
 107.181.187.112, ITL DC(QuadraNet), Los-Angeles, USA
 195.123.233.22, ITL DC(XO Communications), Secaucus, USA
 38.135.104.39, FOXCLOUD(Equinix CH3), Elk Grove Village, USA
@@ -662,9 +666,6 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 158.51.124.164, Hostodo, Las Vegas, USA
 158.51.125.205, Hostodo, Miami, USA
 199.241.190.8, SakuraServer(SakuraServer), Lenoir, USA
-31.220.30.5, HostHatch(Telecom Center), Los Angeles, USA
-185.213.26.112, HostHatch(Equinix NY2), Secaucus, USA
-45.45.216.45, HostHatch(Digital Realty), Chicago, USA
 142.171.155.190, HostNamaste(Multacom), Los-Angeles, USA
 66.248.240.56, SolaDrive(LA Telecom Center), Los Angeles, USA
 66.248.241.252, SolaDrive(Main Place Tower), Buffalo, USA
