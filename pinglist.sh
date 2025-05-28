@@ -84,7 +84,7 @@ do
     if [ $count -ge $task_in_total ]; then
         wait -n  # Wait for any background job to complete
     fi
-done < <((curl -s $url | awk -F ", " -v country=$country '$4 ~ country {print $0}' | awk -F ", " -v city=$city '$3 ~ city {print $0}' ))
+done < <((curl -s $url | (awk -F ", " -v country=$country '$4 ~ country {print $0}' | awk -F ", " -v city=$city '$3 ~ city {print $0}') ))
 
 
 # Wait for remaining jobs to complete
