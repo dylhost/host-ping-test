@@ -1,17 +1,23 @@
 #!/bin/bash
-while getopts c:s:t:d flag
+while getopts c:s:t:d:C flag
 do
     case "${flag}" in
-        c) iplist=${OPTARG};;
+        c) country=${OPTARG};;
+        C) city=${OPTARG};;
         s) sortFlag=${OPTARG};;
         t) timeout=${OPTARG};;
         d) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest";;
     esac
 done
 
-if [ -z ${iplist+x} ]
+if [ -z ${country+x} ]
     then
-        iplist=""
+        country=""
+fi
+
+if [ -z ${city+x} ]
+    then
+        city=""
 fi
 
 if [ -z ${sortFlag} ]
@@ -67,7 +73,7 @@ ping_ip() {
 }
 
 count=0
-task_in_total=$(curl -s $url | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}' | wc -l)
+task_in_total=$(curl -s $url | awk -F ", " -v country=$country '$4 ~ country {print $0}' | awk -F ", " -v city=$city '$3 ~ city {print $0}' | wc -l)
 
 while read output
 do
@@ -78,7 +84,7 @@ do
     if [ $count -ge $task_in_total ]; then
         wait -n  # Wait for any background job to complete
     fi
-done < <((curl -s $url | awk -F ", " -v ipList=$iplist '$4 ~ ipList {print $0}'))
+done < <((curl -s $url | awk -F ", " -v country=$country '$4 ~ country {print $0}' | awk -F ", " -v city=$city '$3 ~ city {print $0}' ))
 
 
 # Wait for remaining jobs to complete
