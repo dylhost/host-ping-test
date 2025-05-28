@@ -11,6 +11,7 @@ curl -s https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main
 ```
 | Flag | Description |
 | ---- | ----------- |
+| -C | Specify city to test (can't be used with country) |
 | -c | Specify country to test |
 | -s | Specify sort flag (options below) |
 | -t | Ping timeout (default 1s) |
