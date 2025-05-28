@@ -1,5 +1,5 @@
 #!/bin/bash
-while getopts c:s:t:d:C flag
+while getopts c:C:s:t:d flag
 do
     case "${flag}" in
         c) country=${OPTARG};;
