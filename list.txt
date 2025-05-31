@@ -751,3 +751,8 @@ nrt.lg.v.ps, V.PS, Tokyo, JPN
 216.73.159.15, Zappie Host, Valdivia, Chile
 217.171.147.81, ZetaLink, Saratov, RUS
 80.89.228.67, Zomro(NovoServe), Delft, NLD
+mel-lg.binarylane.cloud, BinaryLane, Melbourne, AUS
+bne-lg.binarylane.cloud, Brisbane, Melbourne, AUS
+per-lg.binarylane.cloud, BinaryLane, Perth, AUS
+sin-lg.binarylane.cloud, BinaryLane, Singapore, SGP
+syd-lg.binarylane.cloud, BinaryLane, Sydney, AUS
