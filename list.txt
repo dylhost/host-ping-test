@@ -380,23 +380,23 @@ speedtest.washington.linode.com, Linode (Akamai), Washington, USA
 198.27.83.12, OVH, Montreal, CAN
 rbx.as16276.ovh, OVH, FRA, FRA
 94.158.244.10, MivoCloud(OneNeck IT Solutions), Bend, USA
-103.126.137.120, Psychz Networks(Psychz Networks), Sydney, AUS
+103.126.137.120, Psychz.net, Sydney, AUS
 45.67.230.12, PQ.Hosting, Moscow, RUS
 108.181.64.80, Psychz.net, Sydney, AUS
 45.137.155.46, PQ.Hosting, Kyiv, GBR
-103.59.110.241, Psychz Networks(Psychz Networks), Taipei, TWN
-103.126.139.164, Psychz Networks(Psychz Networks), Singapore, SGP
-108.181.140.247, Psychz Networks(Psychz Networks), Chicago, USA
-108.181.73.34, Psychz Networks(Psychz Networks), Tokyo, JPN
+103.59.110.241, Psychz.net, Taipei, TWN
+103.126.139.164, Psychz.net, Singapore, SGP
+108.181.140.247, Psychz.net, Chicago, USA
+108.181.73.34, Psychz.net, Tokyo, JPN
 103.102.153.141, Qwords, Jakarta, IDN
-108.181.89.247, Psychz Networks(Psychz Networks), Dallas, USA
-108.181.59.243, Psychz Networks(Psychz Networks), Amsterdam, NLD
-108.181.61.250, Psychz Networks(Psychz Networks), Mumbai, IND
-108.181.70.237, Psychz Networks(Psychz Networks), Barcelona, ESP
-108.181.134.233, Psychz Networks(Psychz Networks), Herndon, USA
-108.181.51.124, Psychz Networks(Psychz Networks), Seoul, KOR
+108.181.89.247, Psychz.net, Dallas, USA
+108.181.59.243, Psychz.net, Amsterdam, NLD
+108.181.61.250, Psychz.net, Mumbai, IND
+108.181.70.237, Psychz.net, Barcelona, ESP
+108.181.134.233, Psychz.net, Herndon, USA
+108.181.51.124, Psychz.net, Seoul, KOR
 103.59.110.170, Psychz.net, Taipei, TWN
-108.181.67.238, Psychz Networks(Psychz Networks), London, GBR
+108.181.67.238, Psychz.net, London, GBR
 103.126.138.20, Psychz.net, Singapore, SGP
 108.181.140.235, Psychz.net, Chicago, USA
 108.181.73.55, Psychz.net, Tokyo, JPN
@@ -405,19 +405,19 @@ rbx.as16276.ovh, OVH, FRA, FRA
 108.181.61.214, Psychz.net, Mumbai, IND
 108.181.59.250, Psychz.net, Amsterdam, NLD
 108.181.70.253, Psychz.net, Barcelona, ESP
-108.181.60.130, Psychz Networks(Psychz Networks), Moscow, RUS
+108.181.60.130, Psychz.net, Moscow, RUS
 185.4.180.200, PS(PS.kz), Almaty, KAZ
 108.181.51.92, Psychz.net, Seoul, KOR
 108.181.67.248, Psychz.net, London, GBR
 107.173.164.160, Racknerd, Atlanta, USA
 192.3.254.158, Racknerd, Ashburn, USA
 198.23.228.15, Racknerd, Chicago, USA
-108.181.69.248, Psychz Networks(Psychz Networks), Sao Paulo, BRA
+108.181.69.248, Psychz.net, Sao Paulo, BRA
 108.181.60.199, Psychz.net, Moscow, RUS
 108.181.69.242, Psychz.net, Sao Paulo, BRA
 23.94.101.88, Racknerd, Amsterdam, NLD
 198.23.249.100, Racknerd, Dallas, USA
-108.181.120.231, Psychz Networks(Psychz Networks), Johannesburg, ZAF
+108.181.120.231, Psychz.net, Johannesburg, ZAF
 23.95.225.2, Racknerd, Dublin, IRL
 192.210.207.88, Racknerd, San Jose, USA
 192.3.81.8, Racknerd, New York, USA
