@@ -15,22 +15,18 @@ while getopts c:C:h:s:t:d flag; do
     esac
 done
 
-# Default settings
-country="${country:-}"
-city="${city:-}"
-host="${host:-}"
-timeout="${timeout:-1}"
-url="${url:-https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt}"
-[[ -z "${sortFlag:-}" ]] && sortFlag="nr" || sortFlag="k$sortFlag"
-
-# Progress bar settings
-bar_size=40
+country="${country:-}" # Country filter (default empty aka all)
+city="${city:-}" # City filter (default empty aka all)
+host="${host:-}" # Host Filter (default empty aka all)
+timeout="${timeout:-1}" # Timeout (default empty / curl default)
+url="${url:-https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt}" # Test IP list (default list.txt)
+[[ -z "${sortFlag:-}" ]] && sortFlag="nr" || sortFlag="k$sortFlag" # Sort settings (Default "nr")
+bar_size=40 # Progress bar size
 
 # Function to print a progress bar
 show_progress() {
     local current="$1" total="$2"
-    
-    # Use native bash math for integers; use awk for the 2-decimal percentage
+
     local percent=$(awk "BEGIN {printf \"%.2f\", 100 * $current / $total}")
     local done=$(( bar_size * current / total ))
     local todo=$(( bar_size - done ))
@@ -56,7 +52,7 @@ count=0
 
 [[ $task_in_total -eq 0 ]] && { echo "No targets matched the provided filters."; exit 0; } # Prevent division by zero errors if filters match nothing
 
-# Multi-thread pings iterating through our array
+# Multi-thread pings iterating through test IP array
 for output in "${targets[@]}"; do 
     ping_ip "$output" &
     ((count++))
