@@ -149,7 +149,6 @@
 185.4.74.75, FASTVPS(MayFlower), Johvi, EST
 185.105.225.31, FASTVPS(Selectel), Saint-Petersburg, RUS
 205.196.80.88, FASTVPS(Volico), Pompano Beach, USA
-216.218.185.1, FDCservers, Chicago, USA
 93.99.104.115, FinalTek(FinalTek.com), Prague, CZE
 185.195.24.136, FirstByte(StoreData), Moscow, RUS
 185.172.129.7, FirstByte(WebAir), Garden City, USA
@@ -756,3 +755,16 @@ bne-lg.binarylane.cloud, Brisbane, Melbourne, AUS
 per-lg.binarylane.cloud, BinaryLane, Perth, AUS
 sin-lg.binarylane.cloud, BinaryLane, Singapore, SGP
 syd-lg.binarylane.cloud, BinaryLane, Sydney, AUS
+lg-ams.fdcservers.net, FDCServers, Amsterdam, NL
+lg-atl.fdcservers.net, FDCServers, Atlanta, US
+216.218.185.1, FDCservers, Chicago, USA
+lg-dfw.fdcservers.net, FDCServers, Dallas, US
+lg-hkg.fdcservers.net, FDCServers, Hong Kong, HK
+lg-khv.fdcservers.net, FDCServers, Khabarovsk, RU
+lg-lis.fdcservers.net, FDCServers, Lisbon, PT
+lg-mad.fdcservers.net, FDCServers, Madrid, ES
+lg-dme.fdcservers.net, FDCServers, Moscow, RU
+lg-sin.fdcservers.net, FDCServers, Singapore, SG
+lg-hnd.fdcservers.net, FDCServers, Tokyo, JP
+lg-vie.fdcservers.net, FDCServers, Vienna, AT
+lg-war.fdcservers.net, FDCServers, Warsaw, PL
