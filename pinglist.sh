@@ -1,94 +1,68 @@
 #!/bin/bash
-while getopts c:C:s:t:d flag
-do
+
+temp_file=$(mktemp)
+trap 'rm -f "$temp_file"' EXIT INT TERM
+
+while getopts c:C:h:s:t:d flag; do
     case "${flag}" in
-        c) country=${OPTARG};;
-        C) city=${OPTARG};;
-        s) sortFlag=${OPTARG};;
-        t) timeout=${OPTARG};;
-        d) url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest";;
+        c) country="${OPTARG}" ;;
+        C) city="${OPTARG}" ;;
+        h) host="${OPTARG}" ;;
+        s) sortFlag="${OPTARG}" ;;
+        t) timeout="${OPTARG}" ;;
+        d) nextarg="${!OPTIND}"
+            [[ -n "$nextarg" && "$nextarg" != -* ]] && { url="$nextarg"; ((OPTIND++)); } || url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest";;
     esac
 done
 
-if [ -z ${country+x} ]
-    then
-        country=""
-fi
+# Default settings
+country="${country:-}"
+city="${city:-}"
+host="${host:-}"
+timeout="${timeout:-1}"
+url="${url:-https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt}"
+[[ -z "${sortFlag:-}" ]] && sortFlag="nr" || sortFlag="k$sortFlag"
 
-if [ -z ${city+x} ]
-    then
-        city=""
-fi
-
-if [ -z ${sortFlag} ]
-    then
-        sortFlag="nr"
-    else
-        sortFlag="k"+$sortFlag
-fi
-
-if [ -z ${timeout} ]
-    then
-        timeout=1
-fi
-
-if [ -z ${url} ]
-    then
-        url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt"
-fi
-
-# Progress bar
+# Progress bar settings
 bar_size=40
-bar_char_done="#"
-bar_char_todo="-"
-bar_percentage_scale=2
-function show_progress {
-    current="$1"
-    total="$2"
 
-    # calculate the progress in percentage
-    percent=$(bc <<< "scale=$bar_percentage_scale; 100 * $current / $total" )
-    # The number of done and todo characters
-    done=$(bc <<< "scale=0; $bar_size * $percent / 100" )
-    todo=$(bc <<< "scale=0; $bar_size - $done" )
-
-    # build the done and todo sub-bars
-    done_sub_bar=$(printf "%${done}s" | tr " " "${bar_char_done}")
-    todo_sub_bar=$(printf "%${todo}s" | tr " " "${bar_char_todo}")
-
-    # output the bar
+# Function to print a progress bar
+show_progress() {
+    local current="$1" total="$2"
+    
+    # Use native bash math for integers; use awk for the 2-decimal percentage
+    local percent=$(awk "BEGIN {printf \"%.2f\", 100 * $current / $total}")
+    local done=$(( bar_size * current / total ))
+    local todo=$(( bar_size - done ))
+    
+    local done_sub_bar=$(printf "%${done}s" | tr " " "#")
+    local todo_sub_bar=$(printf "%${todo}s" | tr " " "-")
+    
     echo -ne "\rProgress : [${done_sub_bar}${todo_sub_bar}] ${percent}%"
-
-    if [ $total -eq $current ]; then
-        echo -e "\nWaiting for responses..."
-    fi
+    [ "$total" -eq "$current" ] && echo -e "\nWaiting for responses..."
 }
 
 # Function to ping an IP and log the result
 ping_ip() {
-    local ip=$(echo $1 | cut -d "," -f 1 2>&1)
-    local result
-    result=$(ping -qc2 -W "$timeout" "$ip" | awk -F '/' 'END{ print (/^rtt/? $5:"FAIL") }')
-    echo "$result ms, $1" >> output.txt
+    local ip="${1%%,*}" # Native Bash string manipulation (replaces echo + cut)
+    local result=$(ping -qc2 -W "$timeout" "$ip" | awk -F '/' 'END{ print (/^r/? $5:"FAIL") }')
+    echo "$result ms, $1" >> "$temp_file"
 }
 
+mapfile -t targets < <(curl -s "$url" | awk -F ", " -v c="$country" -v C="$city" -v h="$host" '$4 ~ c && $3 ~ C && $2 ~ h') # Fetch targets & filter
+
+task_in_total="${#targets[@]}"
 count=0
-task_in_total=$(curl -s $url | awk -F ", " -v country=$country '$4 ~ country {print $0}' | awk -F ", " -v city=$city '$3 ~ city {print $0}' | wc -l)
 
-while read output
-do
-    # Run ping in background
-    ping_ip "$output" "$timeout" "$list" &
-    count=$(echo "$count+1" | bc)
-    show_progress $count $task_in_total
-    if [ $count -ge $task_in_total ]; then
-        wait -n  # Wait for any background job to complete
-    fi
-done < <((curl -s $url | (awk -F ", " -v country=$country '$4 ~ country {print $0}' | awk -F ", " -v city=$city '$3 ~ city {print $0}') ))
+[[ $task_in_total -eq 0 ]] && { echo "No targets matched the provided filters."; exit 0; } # Prevent division by zero errors if filters match nothing
 
+# Multi-thread pings iterating through our array
+for output in "${targets[@]}"; do 
+    ping_ip "$output" &
+    ((count++))
+    show_progress "$count" "$task_in_total"
+    [ "$count" -ge "$task_in_total" ] && wait -n
+done
 
-# Wait for remaining jobs to complete
-wait
-
-cat output.txt | sort -t , -$sortFlag
-rm output.txt
+wait # Wait for remaining jobs to complete
+sort -t , -"$sortFlag" "$temp_file" # Sort output
