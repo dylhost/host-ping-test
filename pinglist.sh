@@ -58,4 +58,4 @@ wait # Wait for curl commands to finish
 sort -t , -"$sortFlag" "$temp_file" # Sort results
 
 # Print copy-pastable valid addresses if -d (testing) flag is used, allowing for list to be maintained
-[ "$d_flag" = true ] && { echo -e "\n--- Valid Addresses ---"; grep -v '^FAIL' "$temp_file" | sed 's/^[^,]*, //'; }
+[ "$d_flag" = true ] && { echo -e "\n--- Valid Addresses ---"; grep -v '^FAIL' "$temp_file" | sed 's/^[^,]*, //' | sort -t ',' -k 2,2b -k 4,4b -k 3,3b; }
