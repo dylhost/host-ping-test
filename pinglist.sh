@@ -20,7 +20,7 @@ country="${country:-}"
 city="${city:-}"
 host="${host:-}"
 timeout="${timeout:-1}"
-url="${url:-https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt}"
+url="${url:-https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt}?$(date +%s)"
 [[ -z "${sortFlag:-}" ]] && sortFlag="nr" || sortFlag="k$sortFlag"
 bar_size=40
 
