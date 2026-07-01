@@ -3,13 +3,14 @@ temp_file=$(mktemp)
 trap 'rm -f "$temp_file"' EXIT INT TERM
 d_flag=false
 
-while getopts c:C:h:s:t:d flag; do
+while getopts c:C:h:s:t:w:d flag; do
     case "${flag}" in
         c) country="${OPTARG}" ;;
         C) city="${OPTARG}" ;;
         h) host="${OPTARG}" ;;
         s) sortFlag="${OPTARG}" ;;
         t) timeout="${OPTARG}" ;;
+        w) wait_ms="${OPTARG}" ;;
         d) d_flag=true
            nextarg="${!OPTIND}"
            [[ -n "$nextarg" && "$nextarg" != -* ]] && { url="$nextarg"; ((OPTIND++)); } || url="https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/listtest" ;;
@@ -20,9 +21,13 @@ country="${country:-}"
 city="${city:-}"
 host="${host:-}"
 timeout="${timeout:-1}"
+wait_ms="${wait_ms:-0}"
 url="${url:-https://raw.githubusercontent.com/dylhost/host-ping-test/refs/heads/main/list.txt}?$(date +%s)"
 [[ -z "${sortFlag:-}" ]] && sortFlag="nr" || sortFlag="k$sortFlag"
 bar_size=40
+
+# Convert milliseconds to fractional seconds for the sleep command
+wait_sec=$(awk "BEGIN {print $wait_ms / 1000}")
 
 # Show progress bar
 show_progress() {
@@ -51,6 +56,12 @@ count=0
 for output in "${targets[@]}"; do 
     ping_ip "$output" &
     show_progress "$((++count))" "$total"
+    
+    # Wait before firing the next ping, if a delay was provided
+    if [ "$wait_ms" -gt 0 ]; then
+        sleep "$wait_sec"
+    fi
+    
     [ "$count" -ge "$total" ] && wait -n
 done
 
