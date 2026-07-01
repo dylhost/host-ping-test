@@ -42,7 +42,7 @@ ping_ip() {
     echo "$result ms, $1" >> "$temp_file"
 }
 
-mapfile -t targets < <(curl -s "$url" | awk -F ", " -v c="$country" -v C="$city" -v h="$host" '$4 ~ c && $3 ~ C && $2 ~ h') # Map and sort targets
+mapfile -t targets < <(curl -H 'Cache-Control: no-cache' -s "$url" | awk -F ", " -v c="$country" -v C="$city" -v h="$host" '$4 ~ c && $3 ~ C && $2 ~ h') # Map and sort targets
 total="${#targets[@]}"
 count=0
 [[ $total -eq 0 ]] && { echo "No targets matched filters."; exit 0; }
